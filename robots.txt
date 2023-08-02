@@ -1,4 +1,3 @@
 User-agent: *
-Disallow:
-
+Disallow: /templates/
 Sitemap: https://www.mediahunters.pl/sitemap.xml
