@@ -10,6 +10,8 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
+    <meta name="google-site-verification" content="nkpPTpP-0xL8HdHEdKuOKsLyuNvYSTKcSMsGbWvsoEg">
+
     <!-- Favicon -->
     <link
       rel="shortcut icon"
@@ -631,13 +633,14 @@
             >
               <div class="contact-form-box">
                 <h3 class="title">Otrzymaj darmową wycenę już teraz</h3>
-                <form method="POST" action="mail.php" class="axil-contact-form">
+                <form method="POST" class="axil-contact-form" id="contact-form">
                   <div class="form-group">
                     <label>Imię</label>
                     <input
                       type="text"
                       class="form-control"
                       name="contact-name"
+                      id="contact-name"
                       placeholder="Jan Kowalski"
                     />
                   </div>
@@ -647,6 +650,7 @@
                       type="email"
                       class="form-control"
                       name="contact-email"
+                      id="contact-email"
                       placeholder="przyklad@mail.com"
                     />
                   </div>
@@ -656,18 +660,21 @@
                       type="tel"
                       class="form-control"
                       name="contact-company"
+                      id="contact-company"
                       placeholder="+48123456789"
                     />
                   </div>
                   <div class="form-group mb--40">
-                    <label>Numer telefonu</label>
+                    <label>Wiadomość</label>
                     <textarea
                       rows="5"
                       class="form-control"
-                      name="contact-company"
+                      name="contact-message"
+                      id="contact-message"
                       placeholder="Wiadmość.."
                     ></textarea>
                   </div>
+                  <input type="text" name="honeypot" style="display:none;">
                   <div class="form-group">
                     <button
                       type="submit"
@@ -677,12 +684,7 @@
                       Wyślij
                     </button>
                   </div>
-                  <input
-                    type="hidden"
-                    class="form-control"
-                    name="contact-message"
-                    value="Null"
-                  />
+                  
                 </form>
               </div>
             </div>
@@ -1350,6 +1352,22 @@
     <script src="assets/js/vendor/green-audio-player.min.js"></script>
     <script src="assets/js/vendor/jquery.nav.js"></script>
 
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script>
+      emailjs.init("bxtyq6W5Eoh_IWMSL"); // Replace with your EmailJS User ID
+    </script>
+    <script src="assets/js/contact-form.js"></script>
+    <script>
+      (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','UA-237114672-1');
+    </script>
+    
+    <!-- Add Google Analytics script -->
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-237114672-1');
+    </script>
     <!-- Site Scripts -->
     <script src="assets/js/app.js"></script>
   </body>

@@ -175,26 +175,58 @@
                     <div class="col-xl-5 col-lg-6">
                         <div class="contact-form-box shadow-box mb--30">
                             <h3 class="title">Otrzymaj darmową wycenę już teraz</h3>
-                            <form method="POST" action="mail.php" class="axil-contact-form">
-                                <div class="form-group">
-                                    <label>Imię</label>
-                                    <input type="text" class="form-control" name="contact-name">
-                                </div>
-                                <div class="form-group">
-                                    <label>Email</label>
-                                    <input type="email" class="form-control" name="contact-email">
-                                </div>
-                                <div class="form-group">
-                                    <label>Firma</label>
-                                    <input type="text" class="form-control" name="contact-company">
-                                </div>
-                                <div class="form-group mb--40">
-                                    <label>Jak możemy Ci pomóc?</label>
-                                    <textarea name="contact-message" id="contact-message" class="form-control textarea" cols="30" rows="4"></textarea>
-                                </div>
-                                <div class="form-group">
-                                    <button type="submit" class="axil-btn btn-fill-primary btn-fluid btn-primary" name="submit-btn">Otrzymaj wycenę</button>
-                                </div>
+                            <form method="POST" class="axil-contact-form" id="contact-form">
+                              <div class="form-group">
+                                <label>Imię</label>
+                                <input
+                                  type="text"
+                                  class="form-control"
+                                  name="contact-name"
+                                  id="contact-name"
+                                  placeholder="Jan Kowalski"
+                                />
+                              </div>
+                              <div class="form-group">
+                                <label>Email</label>
+                                <input
+                                  type="email"
+                                  class="form-control"
+                                  name="contact-email"
+                                  id="contact-email"
+                                  placeholder="przyklad@mail.com"
+                                />
+                              </div>
+                              <div class="form-group mb--40">
+                                <label>Numer telefonu</label>
+                                <input
+                                  type="tel"
+                                  class="form-control"
+                                  name="contact-company"
+                                  id="contact-company"
+                                  placeholder="+48123456789"
+                                />
+                              </div>
+                              <div class="form-group mb--40">
+                                <label>Wiadomość</label>
+                                <textarea
+                                  rows="5"
+                                  class="form-control"
+                                  name="contact-message"
+                                  id="contact-message"
+                                  placeholder="Wiadmość.."
+                                ></textarea>
+                              </div>
+                              <input type="text" name="honeypot" style="display:none;">
+                              <div class="form-group">
+                                <button
+                                  type="submit"
+                                  class="axil-btn btn-fill-primary btn-fluid btn-primary"
+                                  name="submit-btn"
+                                >
+                                  Wyślij
+                                </button>
+                              </div>
+                              
                             </form>
                         </div>
                     </div>
@@ -382,7 +414,11 @@
     <script src="assets/js/vendor/tilt.js"></script>
     <script src="assets/js/vendor/green-audio-player.min.js"></script>
     <script src="assets/js/vendor/jquery.nav.js"></script>
-
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script>
+      emailjs.init("bxtyq6W5Eoh_IWMSL"); // Replace with your EmailJS User ID
+    </script>
+    <script src="assets/js/contact-form.js"></script>
     <!-- Site Scripts -->
     <script src="assets/js/app.js"></script>
 </body>
