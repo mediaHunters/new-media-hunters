@@ -120,10 +120,10 @@
                 if (window.matchMedia('(min-width: 992px)').matches) {
                     $('body').removeClass('mobilemenu-active');
                     $('#mobilemenu-popup').removeClass('offcanvas show').removeAttr('style');
-                    $('.axil-mainmenu .offcanvas-backdrop').remove();
+                    $('.axil-mainmenu c').remove();
                     $('.axil-submenu').removeAttr('style');
                 } else {
-                    $('body').addClass('mobilemenu-active');
+                    $('body').addClass('mobilemenu-active').css('padding-right', '0');
                     $('#mobilemenu-popup').addClass('offcanvas');
                     $('.menu-item-has-children > a').on('click', function(e) {
                         e.preventDefault();
