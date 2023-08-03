@@ -23,6 +23,13 @@
       name="keywords"
       content="agencja cyfrowa, projektowanie stron internetowych, rozwój web, seo, marketing w mediach społecznościowych, Wrocław"
     />
+
+
+<!-- critical code  -->
+<script src="https://unpkg.com/i18next@23.4.1/dist/umd/i18next.js"></script>
+<script src="assets/js/translation.js" type="module"> </script>
+
+</script>
     <!-- Favicon -->
     <link
       rel="shortcut icon"
@@ -77,7 +84,6 @@
       media="print"
       onload="this.media='all'"
     />
-
     <!-- Site Stylesheet -->
     <link rel="stylesheet" href="assets/css/app.css" media="print" onload="this.media='all'" />
 
@@ -179,28 +185,28 @@
                       <a href="index.html">Home</a>
                     </li>
                     <li>
-                      <a href="about-us.html">O nas</a>
+                      <a href="about-us.html" data-i18n="aboutUs">O nas</a>
                     </li>
                     <li>
-                      <a href="service.html">Usługi</a>
+                      <a href="service.html" data-i18n="services">Usługi</a>
                     </li>
                     <li class="menu-item-has-children">
-                      <a href="javascript:void(0);">Cennik</a>
+                      <a href="javascript:void(0);" data-i18n="pricing">Cennik</a>
                       <ul class="axil-submenu">
                         <li>
-                          <a href="pricing-table-websites.html"
+                          <a href="pricing-table-websites.html" data-i18n="websites"
                             >Strony internetowa</a
                           >
                         </li>
                         <li>
-                          <a href="pricing-table-seo.html">Pozycjonowanie</a>
+                          <a href="pricing-table-seo.html" data-i18n="positioning">Pozycjonowanie</a>
                         </li>
                       </ul>
                     </li>
                     <li>
-                      <a href="portfolio.html">Portfolio</a>
+                      <a href="portfolio.html" data-i18n="portfolio">Portfolio</a>
                     </li>
-                    <li><a href="contact.html">Kontakt</a></li>
+                    <li><a href="contact.html" data-i18n="contact">Kontakt</a></li>
                   </ul>
                 </nav>
                 <!-- End Mainmanu Nav -->
@@ -260,14 +266,16 @@
                 data-sal-duration="1000"
                 data-sal-delay="100"
               >
-                <h1 class="title">Razem zbudujemy sukces Twojej firmy</h1>
+                <h1 class="title" data-i18n="TogetherWeWillBuildSuccessOfYourCompany">Razem zbudujemy sukces Twojej firmy</h1>
                 <span class="subtitle"
+                data-i18n="discoverThePowerOfPersonalization"
                   >Odkryj potęgę personalizacji - Skuteczne komunikaty
                   dopasowane do Twojego odbiorcy</span
                 >
                 <a
                   href="contact.html"
                   class="axil-btn btn-fill-primary btn-large"
+                  data-i18n="letsGetStarted"
                   >Zacznijmy</a
                 >
               </div>
@@ -373,9 +381,9 @@
       <section class="section section-padding-2 bg-color-dark">
         <div class="container">
           <div class="section-heading heading-light-left">
-            <span class="subtitle">Co możemy zrobić dla Ciebie</span>
-            <h2 class="title">Usługi, które możemy Ci zaoferować</h2>
-            <p class="opacity-50">
+            <span class="subtitle" data-i18n="whatCanWeDoForYou">Co możemy zrobić dla Ciebie</span>
+            <h2 class="title" data-i18n="servicesWeCanOfferYou">Usługi, które możemy Ci zaoferować</h2>
+            <p class="opacity-50" data-i18n="comprehensiveAndTailored">
               Jesteśmy gotowi pomóc Ci w osiągnięciu Twoich celów. Nasza oferta
               usług jest kompleksowa i dopasowana do Twoich potrzeb. Niezależnie
               od tego, czy potrzebujesz wsparcia w projektowaniu, rozwoju,
@@ -395,8 +403,8 @@
                   <img src="assets/media/icon/icon-1.png" alt="ikona" />
                 </div>
                 <div class="content">
-                  <h5 class="title text-light">Projektowanie</h5>
-                  <p>
+                  <h5 class="title text-light" data-i18n="design">Projektowanie</h5>
+                  <p data-i18n="professionalAndCreativeDesign">
                     Jeśli potrzebujesz profesjonalnego i kreatywnego
                     projektowania, jesteśmy gotowi dostarczyć Ci rozwiązania,
                     które przyciągną uwagę Twoich klientów.
@@ -415,8 +423,8 @@
                   <img src="assets/media/icon/icon-2.png" alt="ikona" />
                 </div>
                 <div class="content">
-                  <h5 class="title text-light">Rozwój</h5>
-                  <p>
+                  <h5 class="title text-light" data-i18n="development">Rozwój</h5>
+                  <p data-i18n="experiencedDevelopersReady">
                     Nasz zespół doświadczonych programistów i developerów jest
                     gotowy wziąć się za Twój projekt i dostarczyć rozwiązania
                     zgodne z najnowszymi standardami technologicznymi.
@@ -435,8 +443,8 @@
                   <img src="assets/media/icon/icon-3.png" alt="ikona" />
                 </div>
                 <div class="content">
-                  <h5 class="title text-light">Marketing online</h5>
-                  <p>
+                  <h5 class="title text-light" data-i18n="onlineMarketing">Marketing online</h5>
+                  <p data-i18n="achieveOnlineSuccess">
                     Osiągnij sukces w internecie dzięki naszym strategiom
                     marketingowym. Pomagamy w zwiększeniu widoczności Twojej
                     marki i pozyskaniu nowych klientów online.
@@ -455,8 +463,8 @@
                   <img src="assets/media/icon/icon-4.png" alt="ikona" />
                 </div>
                 <div class="content">
-                  <h5 class="title text-light">Biznes</h5>
-                  <p>
+                  <h5 class="title text-light" data-i18n="businessSupport">Biznes</h5>
+                  <p data-i18n="managementStrategyAndMore">
                     Nasza oferta usług biznesowych obejmuje wsparcie w
                     zarządzaniu, strategii rozwoju, analizie rynku i wiele
                     innych aspektów, które pomogą Ci odnieść sukces.
@@ -475,8 +483,8 @@
                   <img src="assets/media/icon/icon-5.png" alt="ikona" />
                 </div>
                 <div class="content">
-                  <h5 class="title text-light">Technologia</h5>
-                  <p>
+                  <h5 class="title text-light" data-i18n="technology">Technologia</h5>
+                  <p data-i18n="supportForModernTechnologies">
                     Zapewniamy wsparcie w zakresie nowoczesnych technologii,
                     wdrożeń systemów informatycznych oraz rozwoju aplikacji i
                     oprogramowania.
@@ -495,8 +503,8 @@
                   <img src="assets/media/icon/icon-6.png" alt="ikona" />
                 </div>
                 <div class="content">
-                  <h5 class="title text-light">Zarządzanie treściami</h5>
-                  <p>
+                  <h5 class="title text-light" data-i18n="contentsManagement">Zarządzanie treściami</h5>
+                  <p data-i18n="comprehensiveApproachToContentManagement">
                     Zapewniamy kompleksowe podejście do zarządzania treściami,
                     aby Twoja marka mogła skutecznie komunikować się z Twoją
                     grupą docelową.
@@ -537,9 +545,9 @@
                 <div class="slick-slide">
                   <div class="case-study-featured">
                     <div class="section-heading heading-left">
-                      <span class="subtitle">Projekt zrealizowany</span>
-                      <h2 class="title">Strona dla skupu samochodowego</h2>
-                      <p>
+                      <span class="subtitle" data-i18n="projectCompleted">Projekt zrealizowany</span>
+                      <h2 class="title" data-i18n="websiteForCarDealership">Strona dla skupu samochodowego</h2>
+                      <p data-i18n="professionalWebsiteForCarDealershipWithModernSolutions">
                         Profesjonalna strona dla skupu samochodowego z
                         nowoczesnymi rozwiązaniami. Intuicyjny layout ułatwia
                         znalezienie oferty i kontakt. Optymalizacja SEO i
@@ -550,6 +558,7 @@
                       <a
                         href="single-case-study.html"
                         class="axil-btn btn-fill-primary btn-large"
+                        data-i18n="readMore"
                         >Czytaj więcej</a
                       >
                     </div>
@@ -558,11 +567,11 @@
                 <div class="slick-slide">
                   <div class="case-study-featured">
                     <div class="section-heading heading-left">
-                      <span class="subtitle">Projekt zrealizowany</span>
-                      <h2 class="title">
+                      <span class="subtitle" data-i18n="ProjectCompleted">Projekt zrealizowany</span>
+                      <h2 class="title" data-i18n="websiteForTimberFrameHouseBuilder">
                         Strona dla wykonawcy domów szkieletowych
                       </h2>
-                      <p>
+                      <p data-i18n="uniqueProjectForSpecialistInBuildingTimberFrameHouses">
                         Wyjątkowy projekt dla specjalisty w budowie domów
                         szkieletowych. Prezentuje firmę i zespół w osobnych
                         zakładach. Nowoczesny formularz kontaktowy ułatwia
@@ -572,6 +581,7 @@
                       <a
                         href="single-case-study.html"
                         class="axil-btn btn-fill-primary btn-large"
+                        data-i18n="readMore"
                         >Czytaj więcej</a
                       >
                     </div>
@@ -580,9 +590,9 @@
                 <div class="slick-slide">
                   <div class="case-study-featured">
                     <div class="section-heading heading-left">
-                      <span class="subtitle">Projekt zrealizowany</span>
-                      <h2 class="title">Strona dla Myjni samochodowej</h2>
-                      <p>
+                      <span class="subtitle" data-i18n="ProjectCompleted" data-i18n="projectCompleted">Projekt zrealizowany</span>
+                      <h2 class="title" data-i18n="websiteForCarWash">Strona dla Myjni samochodowej</h2>
+                      <p data-i18n="effectiveWebsiteForCarWash">
                         Skuteczna strona dla myjni samochodowej. Profesjonalizm
                         i zalety firmy podkreślone na witrynie. Nowoczesny
                         formularz kontaktowy ułatwia interakcję. Integracja z
@@ -594,6 +604,7 @@
                       <a
                         href="single-case-study.html"
                         class="axil-btn btn-fill-primary btn-large"
+                        data-pi18n="readMore"
                         >Czytaj więcej</a
                       >
                     </div>
@@ -649,11 +660,11 @@
             <div class="col-lg-6" data-sal="slide-up" data-sal-duration="800">
               <div class="about-us">
                 <div class="section-heading heading-left mb-0">
-                  <span class="subtitle">O nas</span>
-                  <h2 class="title mb--40">
+                  <span class="subtitle" data-i18n="aboutUs">O nas</span>
+                  <h2 class="title mb--40" data-i18n="ProjectsCodingAndCustomSolutions">
                     Projekty, Kodowanie i Indywidualne Rozwiązania!
                   </h2>
-                  <p>
+                  <p data-i18n="WeAreInternetMagiciansCreatingAttractiveAndEffectiveWebsitesForIndividualsAndCompanies">
                     Jesteśmy magikami sieci, tworzymy atrakcyjne i skuteczne
                     strony internetowe dla osób indywidualnych i firm. Nasza
                     agencja przykłada ogromną wagę do zrozumienia potrzeb
@@ -662,7 +673,7 @@
                     na unikalne rozwiązania, tworzone specjalnie dla Ciebie -
                     żadnych gotowców czy szablonów!
                   </p>
-                  <p>
+                  <p data-i18n="OurServicesIncludeTheHighestQualityOfWebsiteDesignAndDevelopment">
                     Nasze usługi obejmują najwyższą jakość projektowania i
                     tworzenia stron internetowych, serwisów internetowych oraz
                     rozwiązań e-commerce. Współpracujemy z naszymi klientami na
@@ -680,10 +691,10 @@
               data-sal-delay="100"
             >
               <div class="contact-form-box">
-                <h3 class="title">Otrzymaj darmową wycenę już teraz</h3>
+                <h3 class="title" data-i18n="GetAFreeEstimateNow">Otrzymaj darmową wycenę już teraz</h3>
                 <form method="POST" class="axil-contact-form" id="contact-form">
                   <div class="form-group">
-                    <label>Imię</label>
+                    <label data-i18n="name">Imię</label>
                     <input
                       type="text"
                       class="form-control"
@@ -693,7 +704,7 @@
                     />
                   </div>
                   <div class="form-group">
-                    <label>Email</label>
+                    <label data-i18n="email">Email</label>
                     <input
                       type="email"
                       class="form-control"
@@ -703,7 +714,7 @@
                     />
                   </div>
                   <div class="form-group mb--40">
-                    <label>Numer telefonu</label>
+                    <label data-i18n="phoneNumber">Numer telefonu</label>
                     <input
                       type="tel"
                       class="form-control"
@@ -713,7 +724,7 @@
                     />
                   </div>
                   <div class="form-group mb--40">
-                    <label>Wiadomość</label>
+                    <label data-i18n="message">Wiadomość</label>
                     <textarea
                       rows="5"
                       class="form-control"
@@ -728,6 +739,7 @@
                       type="submit"
                       class="axil-btn btn-fill-primary btn-fluid btn-primary"
                       name="submit-btn"
+                      data-i18n="send"
                     >
                       Wyślij
                     </button>
@@ -756,9 +768,9 @@
       <section class="section section-padding">
         <div class="container">
           <div class="section-heading heading-left">
-            <span class="subtitle">Opinie naszych klientów</span>
-            <h2 class="title">Od początku działalności</h2>
-            <p>
+            <span class="subtitle" data-i18n="opinionsOfOurCustomers">Opinie naszych klientów</span>
+            <h2 class="title" data-i18n="fromTheBeginningOfActivity">Od początku działalności</h2>
+            <p data-i18n="ourCompanySpecializesInProvidingProfessionalServicesToOurCustomers">
               Nasza firma specjalizuje się w świadczeniu profesjonalnych usług
               dla naszych klientów. Zaufali nam wielu partnerów, a każdy sukces
               jest dla nas potwierdzeniem jakości naszej pracy.
@@ -772,7 +784,7 @@
               data-sal-delay="100"
             >
               <div class="testimonial-grid active">
-                <p>
+                <p data-i18n="recommendationDaniel">
                   “ Gorąco polecam, po niezbyt udanej współpracy z dwoma innymi
                   firmami wreszcie trafiłem na profesjonalistów. Rzetelne i
                   uczciwe podejście do sprawy! Strona wykonana perfekcyjnie. ”
@@ -797,7 +809,7 @@
               data-sal-delay="200"
             >
               <div class="testimonial-grid">
-                <p>
+                <p datai18n="thankYouForProfessionalCooperationInCreatingTheWebsite">
                   “ Dziękuję za profesjonalną współpracę przy tworzeniu strony
                   www. Wyszło świetnie, w ustalonym wcześniej terminie, zawsze
                   mogę liczyć na pomoc w razie chęci dalszej rozbudowy strony. ”
@@ -822,7 +834,7 @@
               data-sal-delay="300"
             >
               <div class="testimonial-grid">
-                <p>
+                <p data-i18n="couldNotExpectBetterApproachToSolvingMyProblem">
                   “ Nie mogłem się spodziewać lepszego podejścia do rozwiązania
                   mojego problemu. Obsługa była naprawdę profesjonalna, a moje
                   oczekiwania zostały spełnione w pełni. ”
@@ -855,9 +867,9 @@
       <section class="section bg-color-light section-padding">
         <div class="container">
           <div class="section-heading mb-0">
-            <span class="subtitle">Pakiety usług internetowych</span>
-            <h2 class="title">Znajdź idealny pakiet dla swoich potrzeb.</h2>
-            <p>
+            <span class="subtitle" data-i18n="internetServicePackages">Pakiety usług internetowych</span>
+            <h2 class="title" data-i18n="findPerfectPackageForYourNeeds">Znajdź idealny pakiet dla swoich potrzeb.</h2>
+            <p data-i18n="chooseFromOurCreativePackages">
               Wybierz spośród naszych kreatywnych pakietów, dostosowanych do
               Twoich celów biznesowych.
             </p>
@@ -871,26 +883,28 @@
             >
               <div class="pricing-table active">
                 <div class="pricing-header">
-                  <h3 class="title">Pakiet Start-Up</h3>
+                  <h3 class="title" data-i18n="startupPackage">Pakiet Start-Up</h3>
                   <span class="subtitle"
+                  data-i18n="yourFirstStepsOnTheInternet"
                     >Twoje pierwsze kroki w internecie</span
                   >
                   <div class="price-wrap">
-                    <span class="amount">od 999,00 zł</span>
+                    <span class="amount"><span data-i18n="from" class="amount">od</span> 999,00 zł</span>
                   </div>
                   <div class="pricing-btn">
                     <a href="#" class="axil-btn btn-large btn-borderd"
+                    data-i18n="startTheAdventure"
                       >Rozpocznij Przygodę</a
                     >
                   </div>
                 </div>
                 <div class="pricing-body">
                   <ul class="list-unstyled">
-                    <li>1 Strona Wizytówka</li>
-                    <li>Unikalny Wygląd</li>
-                    <li>Formularz Kontaktowy</li>
-                    <li>Responsywny Design</li>
-                    <li>Podstawowa Optymalizacja SEO</li>
+                    <li data-i18n="singlePageWebsite">1 Strona Wizytówka</li>
+                    <li data-i18n="uniqueAppearance">Unikalny Wygląd</li>
+                    <li data-i18n="contactForm">Formularz Kontaktowy</li>
+                    <li data-i18n="responsiveDesign">Responsywny Design</li>
+                    <li data-i18n="basicSEOOptimization">Podstawowa Optymalizacja SEO</li>
                   </ul>
                 </div>
               </div>
@@ -903,25 +917,26 @@
             >
               <div class="pricing-table">
                 <div class="pricing-header">
-                  <h3 class="title">Pakiet Ekspert</h3>
-                  <span class="subtitle">Zdobądź większy zasięg</span>
+                  <h3 class="title" data-i18n="expertPackage">Pakiet Ekspert</h3>
+                  <span class="subtitle" data-i18n="gainGreaterReach">Zdobądź większy zasięg</span>
                   <div class="price-wrap">
-                    <span class="amount">od 2599,00 zł</span>
+                    <span class="amount"><span data-i18n="from" class="amount">od</span> 2599,00 zł</span>
                   </div>
                   <div class="pricing-btn">
                     <a href="#" class="axil-btn btn-large btn-borderd"
+                    data-i18n="developYourBrand"
                       >Rozwijaj Swoją Markę</a
                     >
                   </div>
                 </div>
                 <div class="pricing-body">
                   <ul class="list-unstyled">
-                    <li>Strona Wielostronicowa</li>
-                    <li>Unikalny Wygląd i Animacje</li>
-                    <li>Formularze i Wsparcie E-mail</li>
-                    <li>Responsywność i Szybkość</li>
-                    <li>Optymalizacja SEO i Analiza Danych</li>
-                    <li>Integracja z Mediów Społecznościowych</li>
+                    <li data-i18n="multiPageWebsite">Strona Wielostronicowa</li>
+                    <li data-i18n="uniqueAppearanceAndAnimations">Unikalny Wygląd i Animacje</li>
+                    <li data-i18n="formsAndEmailSupport">Formularze i Wsparcie E-mail</li>
+                    <li data-i18n="responsivenessAndSpeed">Responsywność i Szybkość</li>
+                    <li data-i18n="sEOOptimizationAndDataAnalysis">Optymalizacja SEO i Analiza Danych</li>
+                    <li data-i18n="socialMediaIntegration">Integracja z Mediów Społecznościowych</li>
                   </ul>
                 </div>
               </div>
@@ -934,10 +949,10 @@
             >
               <div class="pricing-table">
                 <div class="pricing-header">
-                  <h3 class="title">Pakiet E-commerce</h3>
-                  <span class="subtitle">Rozwijaj swoją sklep internetowy</span>
+                  <h3 class="title" data-i18n="ecomPackage">Pakiet E-commerce</h3>
+                  <span class="subtitle" data-i18n="expandYourOnlineStore">Rozwijaj swoją sklep internetowy</span>
                   <div class="price-wrap">
-                    <span class="amount">od 3999,00 zł</span>
+                    <span class="amount"><span data-i18n="from" class="amount">od</span> 3999,00 zł</span>
                   </div>
                   <div class="pricing-btn">
                     <a href="#" class="axil-btn btn-large btn-borderd"
@@ -947,12 +962,12 @@
                 </div>
                 <div class="pricing-body">
                   <ul class="list-unstyled">
-                    <li>Profesjonalny Sklep E-commerce</li>
-                    <li>Unikalny Wygląd i Personalizacja</li>
-                    <li>Płatności Online i Bezpieczeństwo</li>
-                    <li>Optymalizacja dla Wyszukiwarek</li>
-                    <li>Integracja z Systemem Magazynowym</li>
-                    <li>Wsparcie Techniczne i Aktualizacje</li>
+                    <li data-i18n="professionalECommerceStore">Profesjonalny Sklep E-commerce</li>
+                    <li data-i18n="uniqueAppearanceAndPersonalization">Unikalny Wygląd i Personalizacja</li>
+                    <li data-i18n="onlinePaymentsAndSecurity">Płatności Online i Bezpieczeństwo</li>
+                    <li data-i18n="searchEngineOptimization">Optymalizacja dla Wyszukiwarek</li>
+                    <li data-i18n="integrationWithInventorySystem">Integracja z Systemem Magazynowym</li>
+                    <li data-i18n="technicalSupportAndUpdates">Wsparcie Techniczne i Aktualizacje</li>
                   </ul>
                 </div>
               </div>
@@ -969,117 +984,14 @@
         </ul>
       </section>
 
-      <!--=====================================-->
-      <!--=        Brand Area Start       	=-->
-      <!--=====================================-->
-      <!-- <section class="section section-padding bg-color-dark">
-            <div class="container">
-                <div class="section-heading heading-light-left">
-                    <span class="subtitle">Top Clients</span>
-                    <h2 class="title">We’ve built solutions for...</h2>
-                    <p>Design anything from simple icons to fully featured websites and applications.</p>
-                </div>
-                <div class="row">
-                    <div class="col-lg-3 col-6" data-sal="slide-up" data-sal-duration="500">
-                        <div class="brand-grid active">
-                            <img src="assets/media/brand/brand-1.png" alt="Brand">
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-6" data-sal="slide-up" data-sal-duration="500" data-sal-delay="100">
-                        <div class="brand-grid">
-                            <img src="assets/media/brand/brand-2.png" alt="Brand">
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-6" data-sal="slide-up" data-sal-duration="500" data-sal-delay="200">
-                        <div class="brand-grid">
-                            <img src="assets/media/brand/brand-3.png" alt="Brand">
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-6" data-sal="slide-up" data-sal-duration="500" data-sal-delay="300">
-                        <div class="brand-grid">
-                            <img src="assets/media/brand/brand-4.png" alt="Brand">
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-6" data-sal="slide-up" data-sal-duration="500" data-sal-delay="400">
-                        <div class="brand-grid">
-                            <img src="assets/media/brand/brand-5.png" alt="Brand">
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-6" data-sal="slide-up" data-sal-duration="500" data-sal-delay="500">
-                        <div class="brand-grid">
-                            <img src="assets/media/brand/brand-6.png" alt="Brand">
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-6" data-sal="slide-up" data-sal-duration="500" data-sal-delay="600">
-                        <div class="brand-grid">
-                            <img src="assets/media/brand/brand-7.png" alt="Brand">
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-6" data-sal="slide-up" data-sal-duration="500" data-sal-delay="700">
-                        <div class="brand-grid">
-                            <img src="assets/media/brand/brand-8.png" alt="Brand">
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <ul class="list-unstyled shape-group-10">
-                <li class="shape shape-1"><img src="assets/media/others/line-9.png" alt="Circle"></li>
-            </ul>
-        </section> -->
-      <!--=====================================-->
-      <!--=        Blog Area Start       	    =-->
-      <!--=====================================-->
-      <!-- <section class="section section-padding-equal">
-            <div class="container">
-                <div class="section-heading">
-                    <span class="subtitle">What's Going On</span>
-                    <h2 class="title">Latest stories</h2>
-                    <p>News From Abstrak And Around The World Of Web Design And Complete Solution of Online Digital Marketing </p>
-                </div>
-                <div class="row g-0">
-                    <div class="col-xl-6" data-sal="slide-right" data-sal-duration="800" data-sal-delay="100">
-                        <div class="blog-list active">
-                            <div class="post-thumbnail">
-                                <a href="single-blog-2.html"><img src="assets/media/blog/blog-1.png" alt="Blog Post"></a>
-                            </div>
-                            <div class="post-content">
-                                <h5 class="title"><a href="single-blog-2.html">How To Use a Remarketing Strategy To Get More</a></h5>
-                                <p>Demand generation is a constant struggle for any business. Each marketing strategy you employ has...</p>
-                                <a href="single-blog-2.html" class="more-btn">Learn more<i class="far fa-angle-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-6" data-sal="slide-left" data-sal-duration="800" data-sal-delay="100">
-                        <div class="blog-list border-start">
-                            <div class="post-thumbnail">
-                                <a href="single-blog-3.html"><img src="assets/media/blog/blog-2.png" alt="Blog Post"></a>
-                            </div>
-                            <div class="post-content">
-                                <h5 class="title"><a href="single-blog-3.html">SEO Statistics You Should Know in 2021</a></h5>
-                                <p>Organic search has the potential to capture more than 40 percent of your gross revenue...</p>
-                                <a href="single-blog-3.html" class="more-btn">Learn more<i class="far fa-angle-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <ul class="shape-group-1 list-unstyled">
-                <li class="shape shape-1"><img src="assets/media/others/bubble-1.png" alt="bubble"></li>
-                <li class="shape shape-2"><img src="assets/media/others/line-1.png" alt="bubble"></li>
-                <li class="shape shape-3"><img src="assets/media/others/line-2.png" alt="bubble"></li>
-                <li class="shape shape-4"><img src="assets/media/others/bubble-2.png" alt="bubble"></li>
-            </ul>
-        </section> -->
-      <!--=====================================-->
-      <!--=     Call To Action Area Start     =-->
-      <!--=====================================-->
       <section class="section call-to-action-area">
         <div class="container">
           <div class="call-to-action">
             <div class="section-heading heading-light">
-              <span class="subtitle">Działajmy Razem</span>
-              <h2 class="title">Potrzebujesz udanego projektu?</h2>
+              <span class="subtitle" data-i18n="workTogether">Działajmy Razem</span>
+              <h2 class="title" data-i18n="needSuccessfulProject">Potrzebujesz udanego projektu?</h2>
               <a href="contact.html" class="axil-btn btn-large btn-fill-white"
+              data-i18n="getProjectEstimation"
                 >Wycena Projektu</a
               >
             </div>
@@ -1188,20 +1100,12 @@
               >
                 <div class="footer-widget border-end">
                   <div class="footer-newsletter">
-                    <h2 class="title">Bądźmy w kontakcie!</h2>
-                    <p>
+                    <h2 class="title" data-i18n="letsBeInTouch">Bądźmy w kontakcie!</h2>
+                    <p data-i18n="weHaveMuchToOffer">
                       Mamy wiele do zaoferowania - inspirujące usługi, świeże
                       pomysły i rozwiązania dopasowane do Twoich potrzeb.
                       Skontaktuj się z nami, a razem osiągniemy sukces!
                     </p>
-                    <!-- <form>
-                                        <div class="input-group">
-                                            <input type="email" class="form-control" placeholder="Adres e-mail">
-                                            <button class
-        
-        ="subscribe-btn" type="submit">Subskrybuj</button>
-                                        </div>
-                                    </form> -->
                   </div>
                 </div>
               </div>
@@ -1214,26 +1118,30 @@
                 <div class="row">
                   <div class="col-sm-6">
                     <div class="footer-widget">
-                      <h6 class="widget-title">Nasze Usługi</h6>
+                      <h6 class="widget-title" data-i18n="ourServices">Nasze Usługi</h6>
                       <div class="footer-menu-link">
                         <ul class="list-unstyled">
                           <li>
                             <a href="service-design.html"
+                            data-i18n="logoAndBrandingDesign"
                               >Projektowanie Logo i Brandingu</a
                             >
                           </li>
                           <li>
                             <a href="service-development.html"
+                            data-i18n="websiteDevelopment"
                               >Tworzenie Stron Internetowych</a
                             >
                           </li>
                           <li>
                             <a href="service-development.html"
+                            data-i18n="websitesPositioning"
                               >Pozycjonowanie stron</a
                             >
                           </li>
                           <li>
                             <a href="service-marketing.html"
+                            data-i18n="searchEngineOptimization"
                               >Optymalizacja dla Wyszukiwarek (SEO)</a
                             >
                           </li>
@@ -1243,21 +1151,21 @@
                   </div>
                   <div class="col-sm-3">
                     <div class="footer-widget">
-                      <h6 class="widget-title">Nasze Zasoby</h6>
+                      <h6 class="widget-title" data-i18n="ourResources">Nasze Zasoby</h6>
                       <div class="footer-menu-link">
                         <ul class="list-unstyled">
-                          <li><a href="portfolio.html">Portfolio</a></li>
+                          <li><a href="portfolio.html" data-i18n="portfolio">Portfolio</a></li>
                         </ul>
                       </div>
                     </div>
                   </div>
                   <div class="col-sm-3">
                     <div class="footer-widget">
-                      <h6 class="widget-title">Wsparcie</h6>
+                      <h6 class="widget-title" data-i18n="support">Wsparcie</h6>
                       <div class="footer-menu-link">
                         <ul class="list-unstyled">
                           <li>
-                            <a href="contact.html">Skontaktuj się z nami</a>
+                            <a href="contact.html" data-i18n="contactUs">Skontaktuj się z nami</a>
                           </li>
                         </ul>
                       </div>
@@ -1277,6 +1185,7 @@
               <div class="col-md-6">
                 <div class="footer-copyright">
                   <span class="copyright-text"
+                  data-i18n="allRightsReservedByMediaHunters"
                     >© 2023. Wszelkie prawa zastrzeżone przez
                     <a href="https://mediahunters.pl/">MediaHunters</a>.</span
                   >
@@ -1288,99 +1197,7 @@
         </div>
       </footer>
 
-      <!--=====================================-->
-      <!--=       Offcanvas Menu Area       	=-->
-      <!--=====================================-->
-      <div
-        class="offcanvas offcanvas-end header-offcanvasmenu"
-        tabindex="-1"
-        id="offcanvasMenuRight"
-      >
-        <div class="offcanvas-header">
-          <button
-            type="button"
-            class="btn-close"
-            data-bs-dismiss="offcanvas"
-            aria-label="Close"
-          ></button>
-        </div>
-        <div class="offcanvas-body">
-          <form action="#" class="side-nav-search-form">
-            <div class="form-group">
-              <input
-                type="text"
-                class="search-field"
-                name="search-field"
-                placeholder="Search..."
-              />
-              <button class="side-nav-search-btn">
-                <i class="fas fa-search"></i>
-              </button>
-            </div>
-          </form>
-          <div class="row">
-            <div class="col-lg-5 col-xl-6">
-              <ul class="main-navigation list-unstyled">
-                <li><a href="index.html">Digital Agency</a></li>
-                <li><a href="index.html">Creative Agency</a></li>
-                <li><a href="index.html">Personal Portfolio</a></li>
-                <li><a href="index.html">Home Startup</a></li>
-                <li><a href="index.html">Corporate Agency</a></li>
-              </ul>
-            </div>
-            <div class="col-lg-7 col-xl-6">
-              <div class="contact-info-wrap">
-                <div class="contact-inner">
-                  <address class="address">
-                    <span class="title">Contact Information</span>
-                    <p>
-                      Theodore Lowe, Ap #867-859 <br />
-                      Sit Rd, Azusa New York
-                    </p>
-                  </address>
-                  <address class="address">
-                    <span class="title">We're Available 24/7. Call Now.</span>
-                    <a class="tel" href="tel:8884562790"
-                      ><i class="fas fa-phone"></i>(888) 456-2790</a
-                    >
-                    <a class="tel" href="tel:12125553333"
-                      ><i class="fas fa-fax"></i>(121) 255-53333</a
-                    >
-                  </address>
-                </div>
-                <div class="contact-inner">
-                  <h5 class="title">Find us here</h5>
-                  <div class="contact-social-share">
-                    <ul class="social-share list-unstyled">
-                      <li>
-                        <a href="https://facebook.com/"
-                          ><i class="fab fa-facebook-f"></i
-                        ></a>
-                      </li>
-                      <li>
-                        <a href="https://twitter.com/"
-                          ><i class="fab fa-twitter"></i
-                        ></a>
-                      </li>
-                      <li>
-                        <a href="https://www.behance.net/"
-                          ><i class="fab fa-behance"></i
-                        ></a>
-                      </li>
-                      <li>
-                        <a href="https://www.linkedin.com/"
-                          ><i class="fab fa-linkedin-in"></i
-                        ></a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+      
 
     <!-- Jquery Js -->
     <script src="assets/js/vendor/jquery-3.6.0.min.js"></script>
@@ -1402,7 +1219,7 @@
     <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
 
     <script async>
-      emailjs.init("bxtyq6W5Eoh_IWMSL"); // Replace with your EmailJS User ID
+      emailjs.init("bxtyq6W5Eoh_IWMSL"); 
     </script>
     <script async src="assets/js/contact-form.js"></script>
     <script async>
@@ -1429,5 +1246,6 @@
     </script>
     <!-- Site Scripts -->
     <script src="assets/js/app.js"></script>
-  </body>
+    <!-- translation -->
+
 </html>
