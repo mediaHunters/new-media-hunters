@@ -1,6 +1,5 @@
 import * as pl from "./i18n/pl.js";
 
-console.log(pl.default);
 document.addEventListener("DOMContentLoaded", () => {
   i18next.init({
     lng: "pl",

@@ -5,7 +5,7 @@ const plTranslations = {
     pricing: "Cennik",
     websites: "Strony internetowe",
     seo: "SEO",
-    Portfolio: "Portfolio",
+    portfolio: "Portfolio",
     contact: "Kontakt",
     positioning: "Pozycjonowanie",
     TogetherWeWillBuildSuccessOfYourCompany:
@@ -285,7 +285,16 @@ const plTranslations = {
     mainPage: "Strona Główna",
     phone: "telefon",
     ourCustomerServiceDepartmentIsOpenFromMonday: "Nasz dział obsługi klienta jest czynny od poniedziałku do piątku w godzinach od 10:00 do 18:00.",
-    ourSupportTeamRespondsWithinHoursDuringStandardBusinessHours: "Nasz zespół wsparcia odpowiada w ciągu 48 godzin w czasie standardowych godzin pracy."
+    ourSupportTeamRespondsWithinHoursDuringStandardBusinessHours: "Nasz zespół wsparcia odpowiada w ciągu 48 godzin w czasie standardowych godzin pracy.",
+    transparentOverviewofIndustry: "Przejrzysty przegląd branżowych problemów rozwiązanych przez zespół MediaHunters.",
+    ourProjects: "Nasze projekty",
+    clearOverviewOfIndustryIssuesSolvedByMediaHuntersTeam: "Przejrzysty przegląd branżowych problemów rozwiązanych przez zespół MediaHunters.",
+    ourProject: "Nasz projekt",
+    ourSpecial: "Nasze wyjątkowe",
+    realisations: "realizacje.",
+    timberHouses: "Domy szkieletowe",
+    carBuying:"Skup aut",
+    carWashing: "Myjnia samochodowa"
   },
 };
 
