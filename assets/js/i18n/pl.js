@@ -294,7 +294,22 @@ const plTranslations = {
     realisations: "realizacje.",
     timberHouses: "Domy szkieletowe",
     carBuying:"Skup aut",
-    carWashing: "Myjnia samochodowa"
+    carWashing: "Myjnia samochodowa",
+    conceptionAndAnalazing: "Analiza i Koncepcja",
+    designAndGrowth: "Projektowanie i Rozwój",
+    timberHousesConcept: "Najpierw przeprowadzimy szczegółową analizę wymagań i oczekiwań firmy w odniesieniu do ich nowej strony. Będziemy słuchać uważnie ich potrzeb, aby zrozumieć, jakie elementy są najważniejsze dla ich biznesu i jakie funkcjonalności powinna posiadać witryna. Na tej podstawie opracujemsy kompleksową koncepcję, która będzie stanowiła solidne fundamenty dla projektu.",
+    timberHousesDesign: "Drugim etapie przystąpimy do projektowania i rozwoju strony. Nasz kreatywny zespół projektantów stworzy unikalny i estetyczny design, który odzwierciedli profesjonalizm i innowacyjność firmy budującej domy szkieletowe. Dbając o doskonałe wrażenia użytkownika, zapewnimy responsywność witryny, aby była idealnie dostosowana do różnych urządzeń. Zaimplementujemy także funkcjonalności umożliwiające łatwe przeglądanie projektów, prezentację oferty oraz umożliwienie klientom bezproblemowego kontaktu.",
+    testsAndImplementation: "Testowanie i Wdrożenie",
+    timberHousesDesignTests: "Ostatni etap będzie poświęcony testowaniu i wdrożeniu witryny. Przeprowadzimy rygorystyczne testy, aby upewnić się, że strona działa bezbłędnie i zapewnia najwyższą jakość użytkowania. Po udanych testach przystąpimy do wdrożenia strony na serwerze, aby była dostępna dla wszystkich użytkowników. Będziemy dbać o każdy szczegół, aby finalny rezultat był zgodny z oczekiwaniami i spełniał wysokie standardy jakości.",
+    carBuyingConcept: "Na początku współpracy skupiliśmy się na zrozumieniu potrzeb i wymagań klienta. Przeprowadziliśmy dokładną analizę branży skupu samochodowego, aby stworzyć strukturę witryny, która zapewni intuicyjny i łatwy dostęp do ofert oraz informacji kontaktowych. Nasz kreatywny zespół grafików i projektantów pracował nad stworzeniem atrakcyjnego i nowoczesnego layoutu, który podkreśla profesjonalizm firmy.",
+    optimizationAndIntegration: "Optymalizacja i Integracja",
+    carBuyingOptimization: "W drugim etapie skupiliśmy się na optymalizacji strony pod kątem SEO (Search Engine Optimization). Zadbaliśmy o odpowiednie słowa kluczowe, metatagi oraz strukturę strony, aby zapewnić jej wysoką widoczność w wynikach wyszukiwania. Dodatkowo, zintegrowaliśmy stronę z Google Maps, co umożliwiło klientom łatwe znalezienie lokalizacji skupu samochodowego.",
+    responsiveAndTesting: "Responsywność i Testowanie",
+    carBuyingResponsive: "W ostatnim etapie skupiliśmy się na zapewnieniu doskonałego doświadczenia użytkownika na różnych urządzeniach. Nasza strona została w pełni dostosowana do urządzeń mobilnych, tabletów oraz komputerów, co pozwoliło klientom przeglądać oferty skupu samochodowego w wygodny sposób, niezależnie od urządzenia, które wykorzystują. Dodatkowo, przeprowadziliśmy rygorystyczne testowanie witryny, aby upewnić się, że wszystkie funkcje działają bez zarzutu.",
+    carWashingConcept: "W pierwszym etapie przeprowadzimy dogłębną analizę wymagań i celów firmy w odniesieniu do ich str ony internetowej. Będziemy uważnie słuchać, aby zrozumieć, jakie elementy są najważniejsze dla ich biznesu i jakie funkcjonalności powinna posiadać witryna. Na tej podstawie opracujemy kompleksową koncepcję, która skupi się na podkreśleniu profesjonalizmu, zalet i unikalności tej firmy.",
+    carWashingGrowth: "W drugim etapie przystąpimy do projektowania i rozwoju strony. Nasz kreatywny zespół projektantów stworzy estetyczny i nowoczesny design, który doskonale odda charakter firmy myjni samochodowej. Zadbamy o czytelne prezentowanie ich oferty, wykorzystując nowoczesny formularz kontaktowy, który ułatwi interakcję z klientami. Integracja z Google Maps i Analytics pozwoli śledzić ruch na stronie, co pozwoli na lepsze zrozumienie potrzeb użytkowników. Dodatkowo, wdrożymy politykę prywatności, dbając o bezpieczeństwo i zaufanie użytkowników witryny.",
+    carWashingTesting: "Ostatni etap będzie poświęcony testowaniu i wdrożeniu strony. Przeprowadzimy rygorystyczne testy, aby upewnić się, że witryna działa bezbłędnie na różnych urządzeniach i przeglądarkach. Po pomyślnym zakończeniu testów przystąpimy do wdrożenia strony na serwerze, aby była dostępna dla wszystkich klientów i odwiedzających. Skoncentrujemy się na lokalnym pozycjonowaniu SEO, co pozwoli zwiększyć widoczność witryny w regionie, przyciągając większą liczbę potencjalnych klientów."
+
   },
 };
 
