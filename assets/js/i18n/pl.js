@@ -265,7 +265,27 @@ const plTranslations = {
     SEOOptimizationCanBringManyBenefitsIncluding: "Optymalizacja SEO może przynieść wiele korzyści, m.in.: zwiększenie ruchu organicznego na stronie, poprawa pozycji w wynikach wyszukiwania, lepsza widoczność marki w sieci, większa konkurencyjność na rynku, efektywność kosztów marketingowych oraz budowanie trwałych relacji z klientami.",
     whatBenefitsDoesSEOOptimizationBring: "Jakie korzyści przynosi optymalizacja SEO?",
     SEOIsAKeyElementOfOnlineMarketingStrategyImproving:"SEO jest kluczowym elementem strategii marketingowej online. Poprawiając pozycje w wynikach wyszukiwania, zwiększasz szanse na dotarcie do swojej docelowej grupy klientów. Większa widoczność w internecie przekłada się na większy ruch na stronie, co może przyczynić się do wzrostu sprzedaży i zysków",
-    whyIsSEOImportantForMyWebsite: "Dlaczego SEO jest ważne dla mojej strony internetowej?"
+    whyIsSEOImportantForMyWebsite: "Dlaczego SEO jest ważne dla mojej strony internetowej?",
+    searchEngineOptimizationIsTheProcessOfOptimizingAWebsiteToImproveItsVisibility: "SEO (Search Engine Optimization) to proces optymalizacji strony internetowej w celu poprawienia jej widoczności w wynikach organicznych wyszukiwarek internetowych, takich jak Google, Bing itp. Dzięki SEO Twoja strona może osiągnąć lepsze pozycje w wynikach wyszukiwania, co przyciąga większy ruch i potencjalnych klientów.",
+    whatIsSEO: "Co to jest SEO?",
+    ifYouAreInterestedInSEOYouProbablyHaveMany: "Jeśli interesuje Cię pozycjonowanie, z pewnością masz wiele pytań. Oto odpowiedzi na najczęściej zadawane pytania:",
+    sEOCompetitorAuditAtStart: "Audyt SEO / konkurencji na start",
+    sEOPageOptimization: "Optymalizacja strony pod kątem SEO",
+    contentPackageForPage: "Pakiet treści na stronę (ilość w zależności od pakietu)",
+    googleAnalyticalToolsInstallation: "Instalacja narzędzi analitycznych Google (GSC i GA)",
+    googleMapsListingCreationWithOptimization: "Utworzenie wizytówki Google Maps z optymalizacją",
+    linkBuildingFromPublicSources: "Linkowanie z ogólnodostępnych miejsc",
+    linkBuildingFromPaidPortals: "Linkowanie z płatnych portali (ilość w zależności od pakietu)",
+    linkBuildingFromInternetForums: "Linkowanie z forów internetowych (ilość w zależności od pakietu)",
+    paidSponsoredArticlesWithCopywriting: "Płatne artykuły sponsorowane z copywritingiem (ilość w zależności od pakietu)",
+    googleMapsListingManagementWithRegularPosts: "Opieka nad wizytówką Google Maps + regularne wpisy",
+    facebookFanpageManagement: "Opieka nad fanpage Facebook",
+    currency: "PLN",
+    findRightPlan: "Znajdź odpowiedni plan",
+    mainPage: "Strona Główna",
+    phone: "telefon",
+    ourCustomerServiceDepartmentIsOpenFromMonday: "Nasz dział obsługi klienta jest czynny od poniedziałku do piątku w godzinach od 10:00 do 18:00.",
+    ourSupportTeamRespondsWithinHoursDuringStandardBusinessHours: "Nasz zespół wsparcia odpowiada w ciągu 48 godzin w czasie standardowych godzin pracy."
   },
 };
 

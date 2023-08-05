@@ -128,7 +128,9 @@
                     <a href="service.html" data-i18n="services">Usługi</a>
                   </li>
                   <li class="menu-item-has-children">
-                    <a href="javascript:void(0);" data-i18n="pricing">Cennik</a>
+                    <a href="javascript:void(0);" ><span data-i18n="pricing">Cennik</span></a>
+
+
                     <ul class="axil-submenu">
                       <li>
                         <a href="pricing-table-websites.html" data-i18n="websites"
@@ -197,10 +199,10 @@
             <div class="container">
                 <div class="breadcrumb">
                     <ul class="list-unstyled">
-                        <li><a href="index.html">Strona główna</a></li>
-                        <li class="active">Kontakt</li>
+                        <li><a href="index.html" data-i18n="mainPage">Strona główna</a></li>
+                        <li class="active" data-i18n="contact">Kontakt</li>
                     </ul>
-                    <h1 class="title h2">Kontakt</h1>
+                    <h1 class="title h2" data-i18n="contact">Kontakt</h1>
                 </div>
             </div>
             <ul class="shape-group-8 list-unstyled">
@@ -223,11 +225,11 @@
                 <div class="row">
                     <div class="col-xl-5 col-lg-6">
                         <div class="contact-form-box shadow-box mb--30">
-                            <h3 class="title">Otrzymaj darmową wycenę już teraz</h3>
+                            <h3 class="title" data-i18n="GetAFreeEstimateNow">Otrzymaj darmową wycenę już teraz</h3>
                             <form method="POST" class="axil-contact-form" id="contact-form">
                               <div class="form-group">
-                                <label>Imię</label>
-                                <input
+                                <label data-i18n="name">Imię</label>
+                                <inpt
                                   type="text"
                                   class="form-control"
                                   name="contact-name"
@@ -236,7 +238,7 @@
                                 />
                               </div>
                               <div class="form-group">
-                                <label>Email</label>
+                                <label data-i18n="email">Email</label>
                                 <input
                                   type="email"
                                   class="form-control"
@@ -246,7 +248,7 @@
                                 />
                               </div>
                               <div class="form-group mb--40">
-                                <label>Numer telefonu</label>
+                                <label data-i18n="phoneNumber">Numer telefonu</label>
                                 <input
                                   type="tel"
                                   class="form-control"
@@ -256,7 +258,7 @@
                                 />
                               </div>
                               <div class="form-group mb--40">
-                                <label>Wiadomość</label>
+                                <label data-i18n="message">Wiadomość</label>
                                 <textarea
                                   rows="5"
                                   class="form-control"
@@ -271,6 +273,7 @@
                                   type="submit"
                                   class="axil-btn btn-fill-primary btn-fluid btn-primary"
                                   name="submit-btn"
+                                  data-i18n="send"
                                 >
                                   Wyślij
                                 </button>
@@ -281,13 +284,13 @@
                     </div>
                     <div class="col-xl-5 col-lg-6 offset-xl-1">
                         <div class="contact-info mb--100 mb_md--30 mt_md--0 mt--150">
-                            <h4 class="title">Telefon</h4>
-                            <p>Nasz dział obsługi klienta jest czynny od poniedziałku do piątku w godzinach od 10:00 do 18:00.</p>
+                            <h4 class="title" data-i18n="phone">Telefon</h4>
+                            <p data-i18n="ourCustomerServiceDepartmentIsOpenFromMonday">Nasz dział obsługi klienta jest czynny od poniedziałku do piątku w godzinach od 10:00 do 18:00.</p>
                             <h4 class="phone-number"><a href="tel:1234567890">+48 731 985 567</a></h4>
                         </div>
                         <div class="contact-info mb--30">
                             <h4 class="title">Email</h4>
-                            <p>Nasz zespół wsparcia odpowiada w ciągu 48 godzin w czasie standardowych godzin pracy.</p>
+                            <p data-i18n="ourSupportTeamRespondsWithinHoursDuringStandardBusinessHours">Nasz zespół wsparcia odpowiada w ciągu 48 godzin w czasie standardowych godzin pracy.</p>
                             <h4 class="phone-number"><a href="mailto:info@example.com">hello.mediahunters@gmail.com</a></h4>
                         </div>
                     </div>
@@ -303,139 +306,136 @@
         <!--=        Footer Area Start       	=-->
         <!--=====================================-->
         <footer class="footer-area">
-            <div class="container">
-              <div class="footer-top">
-                <div class="footer-social-link">
-                  <ul class="list-unstyled">
-                    <li>
-                      <a
-                        href="https://facebook.com/"
-                        data-sal="slide-up"
-                        data-sal-duration="500"
-                        data-sal-delay="100"
-                        ><i class="fab fa-facebook-f"></i
-                      ></a>
-                    </li>
-                    <li>
-                      <a
-                        href="https://www.instagram.com/"
-                        data-sal="slide-up"
-                        data-sal-duration="500"
-                        data-sal-delay="500"
-                        ><i class="fab fa-instagram"></i
-                      ></a>
-                    </li>
-                  </ul>
-                </div>
+          <div class="container">
+            <div class="footer-top">
+              <div class="footer-social-link">
+                <ul class="list-unstyled">
+                  <li>
+                    <a
+                      href="https://facebook.com/"
+                      data-sal="slide-up"
+                      data-sal-duration="500"
+                      data-sal-delay="100"
+                      ><i class="fab fa-facebook-f"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.instagram.com/"
+                      data-sal="slide-up"
+                      data-sal-duration="500"
+                      data-sal-delay="500"
+                      ><i class="fab fa-instagram"></i
+                    ></a>
+                  </li>
+                </ul>
               </div>
-              <div class="footer-main">
-                <div class="row">
-                  <div
-                    class="col-xl-6 col-lg-5"
-                    data-sal="slide-right"
-                    data-sal-duration="800"
-                    data-sal-delay="100"
-                  >
-                    <div class="footer-widget border-end">
-                      <div class="footer-newsletter">
-                        <h2 class="title">Bądźmy w kontakcie!</h2>
-                        <p>
-                          Mamy wiele do zaoferowania - inspirujące usługi, świeże
-                          pomysły i rozwiązania dopasowane do Twoich potrzeb.
-                          Skontaktuj się z nami, a razem osiągniemy sukces!
-                        </p>
-                        <!-- <form>
-                                            <div class="input-group">
-                                                <input type="email" class="form-control" placeholder="Adres e-mail">
-                                                <button class
-            
-            ="subscribe-btn" type="submit">Subskrybuj</button>
-                                            </div>
-                                        </form> -->
-                      </div>
-                    </div>
-                  </div>
-                  <div
-                    class="col-xl-6 col-lg-7"
-                    data-sal="slide-left"
-                    data-sal-duration="800"
-                    data-sal-delay="100"
-                  >
-                    <div class="row">
-                      <div class="col-sm-6">
-                        <div class="footer-widget">
-                          <h6 class="widget-title">Nasze Usługi</h6>
-                          <div class="footer-menu-link">
-                            <ul class="list-unstyled">
-                              <li>
-                                <a href="service-design.html"
-                                  >Projektowanie Logo i Brandingu</a
-                                >
-                              </li>
-                              <li>
-                                <a href="service-development.html"
-                                  >Tworzenie Stron Internetowych</a
-                                >
-                              </li>
-                              <li>
-                                <a href="service-development.html"
-                                  >Pozycjonowanie stron</a
-                                >
-                              </li>
-                              <li>
-                                <a href="service-marketing.html"
-                                  >Optymalizacja dla Wyszukiwarek (SEO)</a
-                                >
-                              </li>
-                            </ul>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-sm-3">
-                        <div class="footer-widget">
-                          <h6 class="widget-title">Nasze Zasoby</h6>
-                          <div class="footer-menu-link">
-                            <ul class="list-unstyled">
-                              <li><a href="portfolio.html">Portfolio</a></li>
-                            </ul>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="col-sm-3">
-                        <div class="footer-widget">
-                          <h6 class="widget-title">Wsparcie</h6>
-                          <div class="footer-menu-link">
-                            <ul class="list-unstyled">
-                              <li>
-                                <a href="contact.html">Skontaktuj się z nami</a>
-                              </li>
-                            </ul>
-                          </div>
-                        </div>
-                      </div>
+            </div>
+            <div class="footer-main">
+              <div class="row">
+                <div
+                  class="col-xl-6 col-lg-5"
+                  data-sal="slide-right"
+                  data-sal-duration="800"
+                  data-sal-delay="100"
+                >
+                  <div class="footer-widget border-end">
+                    <div class="footer-newsletter">
+                      <h2 class="title" data-i18n="letsBeInTouch">Bądźmy w kontakcie!</h2>
+                      <p data-i18n="weHaveMuchToOffer">
+                        Mamy wiele do zaoferowania - inspirujące usługi, świeże
+                        pomysły i rozwiązania dopasowane do Twoich potrzeb.
+                        Skontaktuj się z nami, a razem osiągniemy sukces!
+                      </p>
                     </div>
                   </div>
                 </div>
-              </div>
-              <div
-                class="footer-bottom"
-                data-sal="slide-up"
-                data-sal-duration="500"
-                data-sal-delay="100"
-              >
-                <div class="row">
-                  <div class="col-md-6">
-                    <div class="footer-copyright">
-                      <span class="copyright-text"
-                        >© 2023. Wszelkie prawa zastrzeżone przez
-                        <a href="https://mediahunters.pl/">MediaHunters</a>.</span
-                      >
+                <div
+                  class="col-xl-6 col-lg-7"
+                  data-sal="slide-left"
+                  data-sal-duration="800"
+                  data-sal-delay="100"
+                >
+                  <div class="row">
+                    <div class="col-sm-6">
+                      <div class="footer-widget">
+                        <h6 class="widget-title" data-i18n="ourServices">Nasze Usługi</h6>
+                        <div class="footer-menu-link">
+                          <ul class="list-unstyled">
+                            <li>
+                              <a href="service-design.html"
+                              data-i18n="logoAndBrandingDesign"
+                                >Projektowanie Logo i Brandingu</a
+                              >
+                            </li>
+                            <li>
+                              <a href="service-development.html"
+                              data-i18n="websiteDevelopment"
+                                >Tworzenie Stron Internetowych</a
+                              >
+                            </li>
+                            <li>
+                              <a href="service-development.html"
+                              data-i18n="websitesPositioning"
+                                >Pozycjonowanie stron</a
+                              >
+                            </li>
+                            <li>
+                              <a href="service-marketing.html"
+                              data-i18n="searchEngineOptimization"
+                                >Optymalizacja dla Wyszukiwarek (SEO)</a
+                              >
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-3">
+                      <div class="footer-widget">
+                        <h6 class="widget-title" data-i18n="ourResources">Nasze Zasoby</h6>
+                        <div class="footer-menu-link">
+                          <ul class="list-unstyled">
+                            <li><a href="portfolio.html" data-i18n="portfolio">Portfolio</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-3">
+                      <div class="footer-widget">
+                        <h6 class="widget-title" data-i18n="support">Wsparcie</h6>
+                        <div class="footer-menu-link">
+                          <ul class="list-unstyled">
+                            <li>
+                              <a href="contact.html" data-i18n="contactUs">Skontaktuj się z nami</a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
                     </div>
                   </div>
-                  <div class="col-md-6"></div>
                 </div>
               </div>
             </div>
+            <div
+              class="footer-bottom"
+              data-sal="slide-up"
+              data-sal-duration="500"
+              data-sal-delay="100"
+            >
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="footer-copyright">
+                    <span class="copyright-text"
+                    data-i18n="allRightsReservedByMediaHunters"
+                      >© 2023. Wszelkie prawa zastrzeżone przez
+                      <a href="https://mediahunters.pl/">MediaHunters</a>.</span
+                    >
+                  </div>
+                </div>
+                <div class="col-md-6"></div>
+              </div>
+            </div>
+          </div>
         </footer>
 
 
