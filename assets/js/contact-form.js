@@ -1,14 +1,16 @@
 const contactForm = document.getElementById("contact-form");
-const successMsgTimeout = 5000; 
+const successMsgTimeout = 5000;
 
 let lastSubmissionTime = 0;
-const submissionRateLimit = 5000; 
+const submissionRateLimit = 5000;
 
 contactForm.onsubmit = async function (event) {
   event.preventDefault();
 
   if (isRateLimited()) {
-    handleFormError(new Error("Submission rate limit exceeded. Please try again later."));
+    handleFormError(
+      new Error("Submission rate limit exceeded. Please try again later."),
+    );
     return;
   }
 

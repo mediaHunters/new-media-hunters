@@ -201,6 +201,7 @@ const plTranslations = {
     weSpecializeInProfessionalContentCreation:
       "  Zajmujemy się profesjonalnym tworzeniem treści. Nasze rozwiązania są przyjazne dla wyszukiwarek internetowych oraz użytkowników.",
     raporting: "Raportowanie",
+
     weSpecializeInProfessionalReporting:
       "Zajmujemy się profesjonalnym raportowaniem. Nasze rozwiązania są przyjazne dla wyszukiwarek internetowych oraz użytkowników.",
     weSpecializeInProfessionalHosting:
@@ -248,68 +249,112 @@ const plTranslations = {
     IntegrationWithSocialMedia: "Integracja z Mediów Społecznościowych",
     pricing: "Cennik",
     oneTime: "jednorazowo",
-    theCostOfSEOOptimizationCanBeDifferentDepending: ">Koszty optymalizacji SEO mogą być różne w zależności od skomplikowania projektu, konkurencyjności branży i zakresu działań. Warto zainwestować w jakość usług, aby osiągnąć trwałe i pozytywne rezultaty.",
+
+    theCostOfSEOOptimizationCanBeDifferentDepending:
+      ">Koszty optymalizacji SEO mogą być różne w zależności od skomplikowania projektu, konkurencyjności branży i zakresu działań. Warto zainwestować w jakość usług, aby osiągnąć trwałe i pozytywne rezultaty.",
     whatAreTheCostsOfSEOOptimization: "Jakie są koszty optymalizacji SEO?",
-    thereAreNoGuaranteesForTheFirstPlaceInSearchResultsAsPositionsAre: "Nie ma gwarancji na pierwsze miejsce w wynikach wyszukiwania, ponieważ pozycje są wynikiem wielu czynników. Jednak skuteczna optymalizacja SEO może znacznie poprawić pozycję Twojej strony w wynikach i zwiększyć szanse na dotarcie do klientów.",
-    doesSEOOptimizationGuaranteeTheFirstPlaceInSearchResults: "Czy optymalizacja SEO gwarantuje pierwsze miejsce w wynikach wyszukiwania?",
-    theEffectsOfSEOOptimizationCanBeMeasuredUsing: "Efekty optymalizacji SEO można mierzyć za pomocą narzędzi analitycznych, takich jak Google Analytics. Dzięki nim możesz śledzić ruch na stronie, pozycje w wynikach wyszukiwania, konwersje i inne ważne wskaźniki.",
-    howCanIMeasureTheEffectsOfSEOOptimization: "Jak mogę mierzyć efekty optymalizacji SEO?",
-    sEOOptimizationIsAContinuousProcess: "Tak, SEO to proces ciągły. Wymaga monitorowania i analizy wyników, reagowania na zmiany w algorytmach wyszukiwarek oraz dostosowywania strategii. Optymalizacja SEO powinna być kontynuowana, aby utrzymać wysoką pozycję w wynikach wyszukiwania.",
-    sEOOptimizationRequiresOngoingMaintenance: " Czy optymalizacja SEO wymaga stałego utrzymania?",
-    agenciesUseVariousToolsAndMethodsToImproveWebsite: "Agencje SEO korzystają z różnych narzędzi i metod, aby poprawić widoczność strony. Do najpopularniejszych narzędzi należą analiza słów kluczowych, audyt techniczny strony, optymalizacja treści, budowanie linków, analiza konkurencji itp.",
-    whatToolsAndMethods: "Jakie narzędzia i metody wykorzystywane są w optymalizacji SEO?",
-    SEOOptimizationIsAComplexProcess: "Optymalizacja SEO to skomplikowany proces, który wymaga wiedzy, doświadczenia i ciągłego śledzenia zmian w algorytmach wyszukiwarek. Warto skorzystać z usług profesjonalnej agencji SEO, która pomoże w opracowaniu skutecznej strategii i skoncentruje się na osiągnięciu konkretnych celów.",
+    thereAreNoGuaranteesForTheFirstPlaceInSearchResultsAsPositionsAre:
+      "Nie ma gwarancji na pierwsze miejsce w wynikach wyszukiwania, ponieważ pozycje są wynikiem wielu czynników. Jednak skuteczna optymalizacja SEO może znacznie poprawić pozycję Twojej strony w wynikach i zwiększyć szanse na dotarcie do klientów.",
+    doesSEOOptimizationGuaranteeTheFirstPlaceInSearchResults:
+      "Czy optymalizacja SEO gwarantuje pierwsze miejsce w wynikach wyszukiwania?",
+    theEffectsOfSEOOptimizationCanBeMeasuredUsing:
+      "Efekty optymalizacji SEO można mierzyć za pomocą narzędzi analitycznych, takich jak Google Analytics. Dzięki nim możesz śledzić ruch na stronie, pozycje w wynikach wyszukiwania, konwersje i inne ważne wskaźniki.",
+    howCanIMeasureTheEffectsOfSEOOptimization:
+      "Jak mogę mierzyć efekty optymalizacji SEO?",
+    sEOOptimizationIsAContinuousProcess:
+      "Tak, SEO to proces ciągły. Wymaga monitorowania i analizy wyników, reagowania na zmiany w algorytmach wyszukiwarek oraz dostosowywania strategii. Optymalizacja SEO powinna być kontynuowana, aby utrzymać wysoką pozycję w wynikach wyszukiwania.",
+    sEOOptimizationRequiresOngoingMaintenance:
+      " Czy optymalizacja SEO wymaga stałego utrzymania?",
+    agenciesUseVariousToolsAndMethodsToImproveWebsite:
+      "Agencje SEO korzystają z różnych narzędzi i metod, aby poprawić widoczność strony. Do najpopularniejszych narzędzi należą analiza słów kluczowych, audyt techniczny strony, optymalizacja treści, budowanie linków, analiza konkurencji itp.",
+    whatToolsAndMethods:
+      "Jakie narzędzia i metody wykorzystywane są w optymalizacji SEO?",
+    SEOOptimizationIsAComplexProcess:
+      "Optymalizacja SEO to skomplikowany proces, który wymaga wiedzy, doświadczenia i ciągłego śledzenia zmian w algorytmach wyszukiwarek. Warto skorzystać z usług profesjonalnej agencji SEO, która pomoże w opracowaniu skutecznej strategii i skoncentruje się na osiągnięciu konkretnych celów.",
     canIDoSEOMyself: "Czy mogę zrobić SEO samodzielnie?",
-    theSEOoptimizationprocesscanvaryforeach: "Proces optymalizacji SEO może być różny dla każdej strony internetowej i zależy od wielu czynników, takich jak konkurencyjność branży, aktualny stan witryny i podejmowane działania. Zwykle pierwsze efekty można zauważyć po kilku miesiącach, ale długofalowe wyniki wymagają ciągłej pracy i monitorowania.",
-    HowLongDoesTheSEOOptimizationProcessTake: "Jak długo trwa proces optymalizacji SEO?",
-    SEOOptimizationCanBringManyBenefitsIncluding: "Optymalizacja SEO może przynieść wiele korzyści, m.in.: zwiększenie ruchu organicznego na stronie, poprawa pozycji w wynikach wyszukiwania, lepsza widoczność marki w sieci, większa konkurencyjność na rynku, efektywność kosztów marketingowych oraz budowanie trwałych relacji z klientami.",
-    whatBenefitsDoesSEOOptimizationBring: "Jakie korzyści przynosi optymalizacja SEO?",
-    SEOIsAKeyElementOfOnlineMarketingStrategyImproving:"SEO jest kluczowym elementem strategii marketingowej online. Poprawiając pozycje w wynikach wyszukiwania, zwiększasz szanse na dotarcie do swojej docelowej grupy klientów. Większa widoczność w internecie przekłada się na większy ruch na stronie, co może przyczynić się do wzrostu sprzedaży i zysków",
-    whyIsSEOImportantForMyWebsite: "Dlaczego SEO jest ważne dla mojej strony internetowej?",
-    searchEngineOptimizationIsTheProcessOfOptimizingAWebsiteToImproveItsVisibility: "SEO (Search Engine Optimization) to proces optymalizacji strony internetowej w celu poprawienia jej widoczności w wynikach organicznych wyszukiwarek internetowych, takich jak Google, Bing itp. Dzięki SEO Twoja strona może osiągnąć lepsze pozycje w wynikach wyszukiwania, co przyciąga większy ruch i potencjalnych klientów.",
+    theSEOoptimizationprocesscanvaryforeach:
+      "Proces optymalizacji SEO może być różny dla każdej strony internetowej i zależy od wielu czynników, takich jak konkurencyjność branży, aktualny stan witryny i podejmowane działania. Zwykle pierwsze efekty można zauważyć po kilku miesiącach, ale długofalowe wyniki wymagają ciągłej pracy i monitorowania.",
+    HowLongDoesTheSEOOptimizationProcessTake:
+      "Jak długo trwa proces optymalizacji SEO?",
+    SEOOptimizationCanBringManyBenefitsIncluding:
+      "Optymalizacja SEO może przynieść wiele korzyści, m.in.: zwiększenie ruchu organicznego na stronie, poprawa pozycji w wynikach wyszukiwania, lepsza widoczność marki w sieci, większa konkurencyjność na rynku, efektywność kosztów marketingowych oraz budowanie trwałych relacji z klientami.",
+    whatBenefitsDoesSEOOptimizationBring:
+      "Jakie korzyści przynosi optymalizacja SEO?",
+    SEOIsAKeyElementOfOnlineMarketingStrategyImproving:
+      "SEO jest kluczowym elementem strategii marketingowej online. Poprawiając pozycje w wynikach wyszukiwania, zwiększasz szanse na dotarcie do swojej docelowej grupy klientów. Większa widoczność w internecie przekłada się na większy ruch na stronie, co może przyczynić się do wzrostu sprzedaży i zysków",
+    whyIsSEOImportantForMyWebsite:
+      "Dlaczego SEO jest ważne dla mojej strony internetowej?",
+    searchEngineOptimizationIsTheProcessOfOptimizingAWebsiteToImproveItsVisibility:
+      "SEO (Search Engine Optimization) to proces optymalizacji strony internetowej w celu poprawienia jej widoczności w wynikach organicznych wyszukiwarek internetowych, takich jak Google, Bing itp. Dzięki SEO Twoja strona może osiągnąć lepsze pozycje w wynikach wyszukiwania, co przyciąga większy ruch i potencjalnych klientów.",
     whatIsSEO: "Co to jest SEO?",
-    ifYouAreInterestedInSEOYouProbablyHaveMany: "Jeśli interesuje Cię pozycjonowanie, z pewnością masz wiele pytań. Oto odpowiedzi na najczęściej zadawane pytania:",
+    ifYouAreInterestedInSEOYouProbablyHaveMany:
+      "Jeśli interesuje Cię pozycjonowanie, z pewnością masz wiele pytań. Oto odpowiedzi na najczęściej zadawane pytania:",
     sEOCompetitorAuditAtStart: "Audyt SEO / konkurencji na start",
     sEOPageOptimization: "Optymalizacja strony pod kątem SEO",
-    contentPackageForPage: "Pakiet treści na stronę (ilość w zależności od pakietu)",
-    googleAnalyticalToolsInstallation: "Instalacja narzędzi analitycznych Google (GSC i GA)",
-    googleMapsListingCreationWithOptimization: "Utworzenie wizytówki Google Maps z optymalizacją",
+    contentPackageForPage:
+      "Pakiet treści na stronę (ilość w zależności od pakietu)",
+    googleAnalyticalToolsInstallation:
+      "Instalacja narzędzi analitycznych Google (GSC i GA)",
+    googleMapsListingCreationWithOptimization:
+      "Utworzenie wizytówki Google Maps z optymalizacją",
     linkBuildingFromPublicSources: "Linkowanie z ogólnodostępnych miejsc",
-    linkBuildingFromPaidPortals: "Linkowanie z płatnych portali (ilość w zależności od pakietu)",
-    linkBuildingFromInternetForums: "Linkowanie z forów internetowych (ilość w zależności od pakietu)",
-    paidSponsoredArticlesWithCopywriting: "Płatne artykuły sponsorowane z copywritingiem (ilość w zależności od pakietu)",
-    googleMapsListingManagementWithRegularPosts: "Opieka nad wizytówką Google Maps + regularne wpisy",
+    linkBuildingFromPaidPortals:
+      "Linkowanie z płatnych portali (ilość w zależności od pakietu)",
+    linkBuildingFromInternetForums:
+      "Linkowanie z forów internetowych (ilość w zależności od pakietu)",
+    paidSponsoredArticlesWithCopywriting:
+      "Płatne artykuły sponsorowane z copywritingiem (ilość w zależności od pakietu)",
+    googleMapsListingManagementWithRegularPosts:
+      "Opieka nad wizytówką Google Maps + regularne wpisy",
     facebookFanpageManagement: "Opieka nad fanpage Facebook",
     currency: "PLN",
     findRightPlan: "Znajdź odpowiedni plan",
     mainPage: "Strona Główna",
     phone: "telefon",
-    ourCustomerServiceDepartmentIsOpenFromMonday: "Nasz dział obsługi klienta jest czynny od poniedziałku do piątku w godzinach od 10:00 do 18:00.",
-    ourSupportTeamRespondsWithinHoursDuringStandardBusinessHours: "Nasz zespół wsparcia odpowiada w ciągu 48 godzin w czasie standardowych godzin pracy.",
-    transparentOverviewofIndustry: "Przejrzysty przegląd branżowych problemów rozwiązanych przez zespół MediaHunters.",
+    ourCustomerServiceDepartmentIsOpenFromMonday:
+      "Nasz dział obsługi klienta jest czynny od poniedziałku do piątku w godzinach od 10:00 do 18:00.",
+    ourSupportTeamRespondsWithinHoursDuringStandardBusinessHours:
+      "Nasz zespół wsparcia odpowiada w ciągu 48 godzin w czasie standardowych godzin pracy.",
+    transparentOverviewofIndustry:
+      "Przejrzysty przegląd branżowych problemów rozwiązanych przez zespół MediaHunters.",
     ourProjects: "Nasze projekty",
-    clearOverviewOfIndustryIssuesSolvedByMediaHuntersTeam: "Przejrzysty przegląd branżowych problemów rozwiązanych przez zespół MediaHunters.",
+    clearOverviewOfIndustryIssuesSolvedByMediaHuntersTeam:
+      "Przejrzysty przegląd branżowych problemów rozwiązanych przez zespół MediaHunters.",
     ourProject: "Nasz projekt",
     ourSpecial: "Nasze wyjątkowe",
     realisations: "realizacje.",
     timberHouses: "Domy szkieletowe",
-    carBuying:"Skup aut",
+    carBuying: "Skup aut",
     carWashing: "Myjnia samochodowa",
     conceptionAndAnalazing: "Analiza i Koncepcja",
     designAndGrowth: "Projektowanie i Rozwój",
-    timberHousesConcept: "Najpierw przeprowadzimy szczegółową analizę wymagań i oczekiwań firmy w odniesieniu do ich nowej strony. Będziemy słuchać uważnie ich potrzeb, aby zrozumieć, jakie elementy są najważniejsze dla ich biznesu i jakie funkcjonalności powinna posiadać witryna. Na tej podstawie opracujemsy kompleksową koncepcję, która będzie stanowiła solidne fundamenty dla projektu.",
-    timberHousesDesign: "Drugim etapie przystąpimy do projektowania i rozwoju strony. Nasz kreatywny zespół projektantów stworzy unikalny i estetyczny design, który odzwierciedli profesjonalizm i innowacyjność firmy budującej domy szkieletowe. Dbając o doskonałe wrażenia użytkownika, zapewnimy responsywność witryny, aby była idealnie dostosowana do różnych urządzeń. Zaimplementujemy także funkcjonalności umożliwiające łatwe przeglądanie projektów, prezentację oferty oraz umożliwienie klientom bezproblemowego kontaktu.",
+    timberHousesConcept:
+      "Najpierw przeprowadzimy szczegółową analizę wymagań i oczekiwań firmy w odniesieniu do ich nowej strony. Będziemy słuchać uważnie ich potrzeb, aby zrozumieć, jakie elementy są najważniejsze dla ich biznesu i jakie funkcjonalności powinna posiadać witryna. Na tej podstawie opracujemsy kompleksową koncepcję, która będzie stanowiła solidne fundamenty dla projektu.",
+    timberHousesDesign:
+      "Drugim etapie przystąpimy do projektowania i rozwoju strony. Nasz kreatywny zespół projektantów stworzy unikalny i estetyczny design, który odzwierciedli profesjonalizm i innowacyjność firmy budującej domy szkieletowe. Dbając o doskonałe wrażenia użytkownika, zapewnimy responsywność witryny, aby była idealnie dostosowana do różnych urządzeń. Zaimplementujemy także funkcjonalności umożliwiające łatwe przeglądanie projektów, prezentację oferty oraz umożliwienie klientom bezproblemowego kontaktu.",
     testsAndImplementation: "Testowanie i Wdrożenie",
-    timberHousesDesignTests: "Ostatni etap będzie poświęcony testowaniu i wdrożeniu witryny. Przeprowadzimy rygorystyczne testy, aby upewnić się, że strona działa bezbłędnie i zapewnia najwyższą jakość użytkowania. Po udanych testach przystąpimy do wdrożenia strony na serwerze, aby była dostępna dla wszystkich użytkowników. Będziemy dbać o każdy szczegół, aby finalny rezultat był zgodny z oczekiwaniami i spełniał wysokie standardy jakości.",
-    carBuyingConcept: "Na początku współpracy skupiliśmy się na zrozumieniu potrzeb i wymagań klienta. Przeprowadziliśmy dokładną analizę branży skupu samochodowego, aby stworzyć strukturę witryny, która zapewni intuicyjny i łatwy dostęp do ofert oraz informacji kontaktowych. Nasz kreatywny zespół grafików i projektantów pracował nad stworzeniem atrakcyjnego i nowoczesnego layoutu, który podkreśla profesjonalizm firmy.",
+    timberHousesDesignTests:
+      "Ostatni etap będzie poświęcony testowaniu i wdrożeniu witryny. Przeprowadzimy rygorystyczne testy, aby upewnić się, że strona działa bezbłędnie i zapewnia najwyższą jakość użytkowania. Po udanych testach przystąpimy do wdrożenia strony na serwerze, aby była dostępna dla wszystkich użytkowników. Będziemy dbać o każdy szczegół, aby finalny rezultat był zgodny z oczekiwaniami i spełniał wysokie standardy jakości.",
+    carBuyingConcept:
+      "Na początku współpracy skupiliśmy się na zrozumieniu potrzeb i wymagań klienta. Przeprowadziliśmy dokładną analizę branży skupu samochodowego, aby stworzyć strukturę witryny, która zapewni intuicyjny i łatwy dostęp do ofert oraz informacji kontaktowych. Nasz kreatywny zespół grafików i projektantów pracował nad stworzeniem atrakcyjnego i nowoczesnego layoutu, który podkreśla profesjonalizm firmy.",
     optimizationAndIntegration: "Optymalizacja i Integracja",
-    carBuyingOptimization: "W drugim etapie skupiliśmy się na optymalizacji strony pod kątem SEO (Search Engine Optimization). Zadbaliśmy o odpowiednie słowa kluczowe, metatagi oraz strukturę strony, aby zapewnić jej wysoką widoczność w wynikach wyszukiwania. Dodatkowo, zintegrowaliśmy stronę z Google Maps, co umożliwiło klientom łatwe znalezienie lokalizacji skupu samochodowego.",
+    carBuyingOptimization:
+      "W drugim etapie skupiliśmy się na optymalizacji strony pod kątem SEO (Search Engine Optimization). Zadbaliśmy o odpowiednie słowa kluczowe, metatagi oraz strukturę strony, aby zapewnić jej wysoką widoczność w wynikach wyszukiwania. Dodatkowo, zintegrowaliśmy stronę z Google Maps, co umożliwiło klientom łatwe znalezienie lokalizacji skupu samochodowego.",
     responsiveAndTesting: "Responsywność i Testowanie",
-    carBuyingResponsive: "W ostatnim etapie skupiliśmy się na zapewnieniu doskonałego doświadczenia użytkownika na różnych urządzeniach. Nasza strona została w pełni dostosowana do urządzeń mobilnych, tabletów oraz komputerów, co pozwoliło klientom przeglądać oferty skupu samochodowego w wygodny sposób, niezależnie od urządzenia, które wykorzystują. Dodatkowo, przeprowadziliśmy rygorystyczne testowanie witryny, aby upewnić się, że wszystkie funkcje działają bez zarzutu.",
-    carWashingConcept: "W pierwszym etapie przeprowadzimy dogłębną analizę wymagań i celów firmy w odniesieniu do ich str ony internetowej. Będziemy uważnie słuchać, aby zrozumieć, jakie elementy są najważniejsze dla ich biznesu i jakie funkcjonalności powinna posiadać witryna. Na tej podstawie opracujemy kompleksową koncepcję, która skupi się na podkreśleniu profesjonalizmu, zalet i unikalności tej firmy.",
-    carWashingGrowth: "W drugim etapie przystąpimy do projektowania i rozwoju strony. Nasz kreatywny zespół projektantów stworzy estetyczny i nowoczesny design, który doskonale odda charakter firmy myjni samochodowej. Zadbamy o czytelne prezentowanie ich oferty, wykorzystując nowoczesny formularz kontaktowy, który ułatwi interakcję z klientami. Integracja z Google Maps i Analytics pozwoli śledzić ruch na stronie, co pozwoli na lepsze zrozumienie potrzeb użytkowników. Dodatkowo, wdrożymy politykę prywatności, dbając o bezpieczeństwo i zaufanie użytkowników witryny.",
-    carWashingTesting: "Ostatni etap będzie poświęcony testowaniu i wdrożeniu strony. Przeprowadzimy rygorystyczne testy, aby upewnić się, że witryna działa bezbłędnie na różnych urządzeniach i przeglądarkach. Po pomyślnym zakończeniu testów przystąpimy do wdrożenia strony na serwerze, aby była dostępna dla wszystkich klientów i odwiedzających. Skoncentrujemy się na lokalnym pozycjonowaniu SEO, co pozwoli zwiększyć widoczność witryny w regionie, przyciągając większą liczbę potencjalnych klientów."
-
+    carBuyingResponsive:
+      "W ostatnim etapie skupiliśmy się na zapewnieniu doskonałego doświadczenia użytkownika na różnych urządzeniach. Nasza strona została w pełni dostosowana do urządzeń mobilnych, tabletów oraz komputerów, co pozwoliło klientom przeglądać oferty skupu samochodowego w wygodny sposób, niezależnie od urządzenia, które wykorzystują. Dodatkowo, przeprowadziliśmy rygorystyczne testowanie witryny, aby upewnić się, że wszystkie funkcje działają bez zarzutu.",
+    carWashingConcept:
+      "W pierwszym etapie przeprowadzimy dogłębną analizę wymagań i celów firmy w odniesieniu do ich str ony internetowej. Będziemy uważnie słuchać, aby zrozumieć, jakie elementy są najważniejsze dla ich biznesu i jakie funkcjonalności powinna posiadać witryna. Na tej podstawie opracujemy kompleksową koncepcję, która skupi się na podkreśleniu profesjonalizmu, zalet i unikalności tej firmy.",
+    carWashingGrowth:
+      "W drugim etapie przystąpimy do projektowania i rozwoju strony. Nasz kreatywny zespół projektantów stworzy estetyczny i nowoczesny design, który doskonale odda charakter firmy myjni samochodowej. Zadbamy o czytelne prezentowanie ich oferty, wykorzystując nowoczesny formularz kontaktowy, który ułatwi interakcję z klientami. Integracja z Google Maps i Analytics pozwoli śledzić ruch na stronie, co pozwoli na lepsze zrozumienie potrzeb użytkowników. Dodatkowo, wdrożymy politykę prywatności, dbając o bezpieczeństwo i zaufanie użytkowników witryny.",
+    carWashingTesting:
+      "Ostatni etap będzie poświęcony testowaniu i wdrożeniu strony. Przeprowadzimy rygorystyczne testy, aby upewnić się, że witryna działa bezbłędnie na różnych urządzeniach i przeglądarkach. Po pomyślnym zakończeniu testów przystąpimy do wdrożenia strony na serwerze, aby była dostępna dla wszystkich klientów i odwiedzających. Skoncentrujemy się na lokalnym pozycjonowaniu SEO, co pozwoli zwiększyć widoczność witryny w regionie, przyciągając większą liczbę potencjalnych klientów.",
+    weAreTheQuicketGrowingcompany:
+      "Jesteśmy jedną z najszybciej rozwijających się agencji. Projektujemy i tworzymy aplikacje webowe i mobilne dla klientów w całym kraju.",
+    exceedExpectationsClientAndColleagues:
+      "Przekraczaj oczekiwania klientów i kolegów",
+    ourAgencieWorkInFourSteps:
+      "Nasza agencja interaktywna działa w 4 etapach, aby dostarczyć najlepsze rozwiązania dla Ciebie.",
   },
 };
 
