@@ -355,7 +355,8 @@ const plTranslations = {
       "Przekraczaj oczekiwania klientów i kolegów",
     ourAgencieWorkInFourSteps:
       "Nasza agencja interaktywna działa w 4 etapach, aby dostarczyć najlepsze rozwiązania dla Ciebie.",
-  },
+    phone: "Telefon"
+    },
 };
 
 export default plTranslations;

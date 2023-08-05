@@ -236,8 +236,6 @@ const enTranslations = {
     weSpecializeInProfessionalHosting:
       "We specialize in professional hosting. Our solutions are user-friendly and search engine friendly.",
     websiteAuditPractices: "Website Audit Practices",
-    weSpecializeInWebsiteReviewAndAnalysis:
-      "We specialize in website review and analysis. Our solutions increase marketing efficiency.",
     afterTheCompletionOfDesigning:
       "After the completion of the design, building and optimization process, your website will be submitted to Google for indexing. The first results in the search engine should be visible within 2 days of action.",
     whenWillTheWebsiteBeVisibleOnGoogle:
@@ -252,56 +250,6 @@ const enTranslations = {
     domainIsTheUniqueWebAddress:
       "The domain is the individual WWW address of our website (eg. www.mojadomena.pl). It is most often associated with the name of the company, names or specific products. It is important that it is easy to remember, without unnecessary special characters. You can purchase the domain yourself or assign this task to our company.",
     whatIsADomain: "What is a domain?",
-    takeResponsibilityAndChallengeStatusQuo:
-      "Weź odpowiedzialność i zakwestionuj status quo w konstruktywny sposób",
-    whoWeAre: "Kim jesteśmy",
-    oneOfTheFastestGrowingAgencies:
-      "Jedną z najszybciej rozwijających się agencji",
-    designAndCreateWebAndMobileApplications:
-      "Projektujemy i tworzymy aplikacje internetowe i mobilne dla naszych klientów w całym kraju.",
-    bestSolutionsForYourBusiness: "Najlepsze rozwiązania dla Twojej firmy",
-    giveYourBusinessUniqueLogoThatStandsOut:
-      "Daj swojej firmie unikalne logo, które wyróżni się spośród tłumu. Stworzymy logo specjalnie dla Twojej firmy.",
-    contentStrategy: "Strategia treści",
-    designServices: "Usługi projektowe",
-    weCreateProfessionalLogoAndVisualIdentity:
-      "Tworzymy profesjonalne logo i tożsamość wizualną, które sprawią, że Twoja firma wyróżni się od konkurencji. Nasze projekty są dostosowane do potrzeb naszych klientów i są przyjazne dla użytkowników i wyszukiwarek.",
-    WebDesign: "Projektowanie stron internetowych",
-    WeOfferModernAndFunctionalWebsites:
-      "Oferujemy nowoczesne i funkcjonalne strony internetowe, które skutecznie przyciągają klientów i zwiększają konwersje. Nasze rozwiązania są responsywne, zoptymalizowane pod kątem SEO i dostosowane do indywidualnych potrzeb Twojej firmy.",
-    service: "Usługa",
-    contentManagement: "Zarządzanie treścią",
-    weSpecializeInProfessionalContentManagement:
-      "Specjalizujemy się w profesjonalnym zarządzaniu treścią. Nasze rozwiązania są przyjazne dla użytkowników i wyszukiwarek.",
-    mobileAppDevelopment: "Programowanie aplikacji mobilnych",
-    weSpecializeInProfessionalMobileAppDevelopment:
-      "Specjalizujemy się w profesjonalnym programowaniu aplikacji mobilnych. Nasze rozwiązania są przyjazne dla użytkowników i wyszukiwarek.",
-    WeSpecializeInProfessionalEcommerce:
-      "Specjalizujemy się w profesjonalnym e-commerce. Nasze rozwiązania są przyjazne dla użytkowników i wyszukiwarek.",
-    searchEngineOptimizationWithShort: "Optymalizacja wyszukiwarki (SEO)",
-    weSpecializeInProfessionalSEOOptimization:
-      "Specjalizujemy się w profesjonalnej optymalizacji SEO. Nasze rozwiązania są przyjazne dla użytkowników i wyszukiwarek.",
-    biznesKonsulting: "Konsulting biznesowy",
-    weSpecializeInProfessionalBusinessConsulting:
-      "Specjalizujemy się w profesjonalnym doradztwie biznesowym. Nasze rozwiązania są przyjazne dla użytkowników i wyszukiwarek.",
-    contentCreation: "Tworzenie treści",
-    weSpecializeInProfessionalContentCreation:
-      "  Specjalizujemy się w profesjonalnym tworzeniu treści. Nasze rozwiązania są przyjazne dla użytkowników i wyszukiwarek.",
-    raporting: "Raportowanie",
-    weSpecializeInProfessionalReporting:
-      "Specjalizujemy się w profesjonalnym raportowaniu. Nasze rozwiązania są przyjazne dla użytkowników i wyszukiwarek.",
-    weSpecializeInProfessionalHosting:
-      "Specjalizujemy się w profesjonalnym hostingu. Nasze rozwiązania są przyjazne dla użytkowników i wyszukiwarek.",
-    websiteAuditPractices: "Procedury audytu strony internetowej",
-    weSpecializeInWebsiteReviewAndAnalysis:
-      "Specjalizujemy się w przeglądaniu i analizie stron internetowych. Nasze rozwiązania zwiększają efektywność marketingową.",
-    afterTheCompletionOfDesigning:
-      "Po zakończeniu procesu projektowania, budowy i optymalizacji Twoja strona internetowa zostanie przesłana do Google w celu indeksacji. Pierwsze wyniki w wyszukiwarce powinny być widoczne w ciągu 2 dni od działania.",
-    whenWillTheWebsiteBeVisibleOnGoogle:
-      "Kiedy strona internetowa będzie widoczna w Google?",
-    creatingAWordPressBasedWebsiteIsAShortcut:
-      "Tworzenie strony opartej na WordPress to skrót, ponieważ zwykle ogranicza się do przerabiania gotowego szablonu. Nasza firma zdecydowanie poleca budowanie witryn dedykowanych, które cechują się szybkością, nieograniczoną możliwością edycji oraz bezpieczeństwem i stabilnością działania.",
-    wordPressSiteOrCustomDesign: "Strona na WordPress czy dedykowana?",
     takeResponsibilityAndChallengeStatusQuo:
       "Take responsibility and challenge the status quo in a constructive way",
     whoWeAre: "Who We Are",
@@ -342,8 +290,6 @@ const enTranslations = {
     weSpecializeInProfessionalHosting:
       "We specialize in professional hosting. Our solutions are user-friendly and search engine friendly.",
     websiteAuditPractices: "Website Audit Practices",
-    weSpecializeInWebsiteReviewAndAnalysis:
-      "We specialize in website review and analysis. Our solutions increase marketing efficiency.",
     afterTheCompletionOfDesigning:
       "After the completion of the design, building and optimization process, your website will be submitted to Google for indexing. The first results in the search engine should be visible within 2 days of action.",
     whenWillTheWebsiteBeVisibleOnGoogle:
@@ -461,10 +407,24 @@ const enTranslations = {
       "If you are interested in creating a website, you undoubtedly have many questions. Here are answers to the most frequently asked questions:",
     mainPage: "Main page",
     whyWorthCooperatingWithUs: "Why Worth Cooperating With Us?",
-    weAreTheQuicketGrowingcompany: "We are one of the fastest-growing agencies. We design and develop web and mobile applications for clients across the country.",
-    exceedExpectationsClientAndColleagues: "Exceed expectations of clients and colleagues",  
-    ourAgencieWorkInFourSteps: "Our interactive agency operates in 4 stages to deliver the best solutions for you.",
-    
+    weAreTheQuicketGrowingcompany:
+      "We are one of the fastest-growing agencies. We design and develop web and mobile applications for clients across the country.",
+    exceedExpectationsClientAndColleagues:
+      "Exceed expectations of clients and colleagues",
+    ourAgencieWorkInFourSteps:
+      "Our interactive agency operates in 4 stages to deliver the best solutions for you.",
+    ourSupportTeamRespondsWithinHoursDuringStandardBusinessHours:
+      "Our support team responds within 48 hours during standard business hours.",
+    ourCustomerServiceDepartmentIsOpenFromMonday:
+      "Our customer service department is open from Monday to Friday between 10:00 AM and 6:00 PM.",
+    phone: "phone",
+    timberHouses: "Timber Houses",
+    ourSpecial: "Our Special",
+    ourProject: "Our Project",
+    transparentOverviewofIndustry:
+      "Transparent overview of industry issues solved by the MediaHunters team.",
+    ourProjects: "Our Projects",
+    realisations: "realizations.",
   },
 };
 

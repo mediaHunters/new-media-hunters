@@ -49,6 +49,9 @@ class LanguageManager {
 
       this.userLanguage = otherLanguage; // Update user language
       this.translateAllElements();
+
+      // Save the user's language preference to localStorage
+      localStorage.setItem("languagePreference", otherLanguage);
     });
   }
 
