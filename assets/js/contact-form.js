@@ -77,13 +77,14 @@ function validateFormData(formData) {
 }
 
 async function sendEmail(data) {
+  console.log(data)
   const templateParams = {
     from_name: data["contact-name"],
     from_email: data["contact-email"],
     to_name: "Media Hunters",
-    message: data["contact-message"],
+    message: data["contact-message"] + `nr tel: ${data['contact-company']}` + `email: ${data["contact-email"]}`,
   };
-
+  console.log(templateParams)
   await emailjs.send("service_x1s6ekh", "template_5ak7u1h", templateParams);
 
   lastSubmissionTime = new Date().getTime();
