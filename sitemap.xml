@@ -41,7 +41,7 @@
         <priority>0.8</priority>
     </url>
 
-    <url>
+    <!-- <url>
         <loc>https://www.mediahunters.pl/single-portfolio-enterauto.html</loc>
         <lastmod>2023-08-02T00:00:00+00:00</lastmod>
         <priority>0.8</priority>
@@ -56,7 +56,7 @@
         <loc>https://www.mediahunters.pl/single-portfolio-domy-szkieletowe.pl</loc>
         <lastmod>2023-08-02T00:00:00+00:00</lastmod>
         <priority>0.8</priority>
-    </url>
+    </url> -->
 
     <!-- Contact -->
     <url>
