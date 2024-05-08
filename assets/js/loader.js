@@ -1,22 +1,19 @@
-var overlay; // Declare overlay variable outside the event listeners
-
-document.onreadystatechange = function () {
-    if (document.readyState === "interactive") {
-        // Create the overlay div
-        overlay = document.createElement("div");
-        overlay.id = "overlay";
-
-        // Create the loaderCircular div
-        var loaderCircular = document.createElement("div");
-        loaderCircular.id = "loaderCircular";
-
-        // Append the overlay and loaderCircular to the body
-        document.body.appendChild(overlay);
-        document.body.appendChild(loaderCircular);
-    }
-};
-
 document.addEventListener("DOMContentLoaded", function() {
+    // Declare overlay variable
+    var overlay;
+
+    // Create the overlay div
+    overlay = document.createElement("div");
+    overlay.id = "overlay";
+
+    // Create the loaderCircular div
+    var loaderCircular = document.createElement("div");
+    loaderCircular.id = "loaderCircular";
+
+    // Append the overlay and loaderCircular to the body
+    document.body.appendChild(overlay);
+    document.body.appendChild(loaderCircular);
+
     // Select the loader
     var loader = document.getElementById("loaderCircular");
     
