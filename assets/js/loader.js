@@ -41,3 +41,4 @@ class OverlayLoader {
         overlayLoader.fadeOutElements();
     });
 })();
+    
