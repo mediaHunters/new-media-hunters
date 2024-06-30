@@ -7,6 +7,7 @@ class OverlayLoader {
     createAndAppendElement(tagName, id, parent) {
         const element = document.createElement(tagName);
         element.id = id;
+        element.classList.add(id);
         parent.appendChild(element);
         return element;
     }
@@ -22,18 +23,20 @@ class OverlayLoader {
         setTimeout(() => {
             this.overlay.style.display = "none";
             this.loader.style.display = "none";
+            document.body.classList.remove("loading");
         }, 300);
     }
 
     start() {
         this.fadeInElements();
-        setTimeout(() => {
-            this.fadeOutElements();
-        }, 3000);
     }
 }
 
 document.addEventListener("DOMContentLoaded", function() {
     const overlayLoader = new OverlayLoader();
     overlayLoader.start();
+
+    window.addEventListener('load', function() {
+        overlayLoader.fadeOutElements();
+    });
 });
