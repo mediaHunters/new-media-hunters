@@ -1,36 +1,39 @@
-document.addEventListener("DOMContentLoaded", function() {
-    // Declare overlay variable
-    var overlay;
+class OverlayLoader {
+    constructor() {
+        this.overlay = this.createAndAppendElement("div", "overlay", document.body);
+        this.loader = this.createAndAppendElement("div", "loaderCircular", document.body);
+    }
 
-    // Create the overlay div
-    overlay = document.createElement("div");
-    overlay.id = "overlay";
+    createAndAppendElement(tagName, id, parent) {
+        const element = document.createElement(tagName);
+        element.id = id;
+        parent.appendChild(element);
+        return element;
+    }
 
-    // Create the loaderCircular div
-    var loaderCircular = document.createElement("div");
-    loaderCircular.id = "loaderCircular";
+    fadeInElements() {
+        this.overlay.style.opacity = "1";
+        this.loader.style.opacity = "1";
+    }
 
-    // Append the overlay and loaderCircular to the body
-    document.body.appendChild(overlay);
-    document.body.appendChild(loaderCircular);
-
-    // Select the loader
-    var loader = document.getElementById("loaderCircular");
-    
-    // Show the overlay and loader
-    overlay.style.opacity = "1"; // Show the overlay smoothly
-    loader.style.opacity = "1"; // Show the loader smoothly
-    
-    // Simulate loading completion after 3 seconds
-    setTimeout(function() {
-        overlay.style.opacity = "0"; // Hide the overlay smoothly
-        loader.style.opacity = "0"; // Hide the loader smoothly
-        
-        // Ensure the loader is hidden after transition
-        setTimeout(function() {
-            overlay.style.display = "none";
-            loader.style.display = "none";
+    fadeOutElements() {
+        this.overlay.style.opacity = "0";
+        this.loader.style.opacity = "0";
+        setTimeout(() => {
+            this.overlay.style.display = "none";
+            this.loader.style.display = "none";
         }, 300);
-        
-    }, 3000);
+    }
+
+    start() {
+        this.fadeInElements();
+        setTimeout(() => {
+            this.fadeOutElements();
+        }, 3000);
+    }
+}
+
+document.addEventListener("DOMContentLoaded", function() {
+    const overlayLoader = new OverlayLoader();
+    overlayLoader.start();
 });
