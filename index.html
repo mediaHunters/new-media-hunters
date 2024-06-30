@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html class="no-js" lang="pl">
   <head>
+    <!-- <script id="CookieDeclaration" src="https://consent.cookiebot.com/1aff1fe4-c5f7-4684-977f-a7a418543245/cd.js" type="text/javascript" async></script> -->
+    <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="1aff1fe4-c5f7-4684-977f-a7a418543245" data-blockingmode="auto" type="text/javascript"></script>
     <!-- Meta Data -->
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -66,6 +68,15 @@
       }
       </script>
 
+<!-- Dynamic Loading -->
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    var gaScript = document.createElement('script');
+    gaScript.src = 'https://www.googletagmanager.com/gtag/js?id=UA-237114672-1';
+    gaScript.defer = true;
+    document.head.appendChild(gaScript);
+  });
+</script>
     <link rel="dns-prefetch" href="//www.googletagmanager.com">
     <link rel="preconnect" href="https://www.googletagmanager.com" crossorigin>
 
@@ -125,6 +136,8 @@ body.loading {
             display: none;
         }
 </style>
+
+
 <link rel="preload" href="https://mediahunters.pl/assets/media/banner/window.webp" as="image">
 <!-- critical code  -->
 <script src="https://mediahunters.pl/assets/js/loader.js" type="module"> </script>
@@ -189,6 +202,7 @@ body.loading {
     />
     <!-- Site Stylesheet -->
     <link rel="stylesheet" rel="preload" href="https://mediahunters.pl/assets/css/app.css" media="print" onload="this.media='all'" />
+
 
   </head>
 
@@ -1195,6 +1209,7 @@ body.loading {
     </script>
     <script async src="https://mediahunters.pl/assets/js/contact-form.js"></script>
 <!-- Google Tag Manager -->
+<!-- Google Tag Manager -->
 <script>
   (function(w, d, s, l, i) {
     w[l] = w[l] || [];
@@ -1208,57 +1223,10 @@ body.loading {
     j.defer = true;
     j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
     f.parentNode.insertBefore(j, f);
-  })(window, document, 'script', 'dataLayer', 'GTM-XXXXXX');
-</script>
-<!-- End Google Tag Manager -->
-
-<!-- Google Analytics and Consent Mode -->
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag() {
-    dataLayer.push(arguments);
-  }
-
-  gtag('consent', 'default', {
-    'ad_storage': 'denied',
-    'analytics_storage': 'denied'
-  });
-
-  gtag('js', new Date());
-  gtag('config', 'UA-237114672-1');
-</script>
-<!-- End Google Analytics and Consent Mode -->
-
-<!-- Dynamic Loading -->
-<script>
-  document.addEventListener('DOMContentLoaded', function() {
-    var gaScript = document.createElement('script');
-    gaScript.src = 'https://www.googletagmanager.com/gtag/js?id=UA-237114672-1';
-    gaScript.defer = true;
-    document.head.appendChild(gaScript);
-  });
-</script>
-
-<!-- Update Consent Status based on CMP -->
-<script>
-  function updateConsentStatus(consentStatus) {
-    gtag('consent', 'update', {
-      'ad_storage': consentStatus.ad ? 'granted' : 'denied',
-      'analytics_storage': consentStatus.analytics ? 'granted' : 'denied'
-    });
-  }
-
-  // Example event listener for consent changes
-  // Replace this with the actual CMP integration code
-  document.addEventListener('consentChanged', function(event) {
-    var consentStatus = event.detail;
-    updateConsentStatus(consentStatus);
-  });
+  })(window, document, 'script', 'dataLayer', 'GTM-WB6LMFC');
 </script>
 
     
-    <!-- Site Scripts -->
     <script src="https://mediahunters.pl/assets/js/app.js" defer></script>
     <!-- translation -->
-
 </html>
