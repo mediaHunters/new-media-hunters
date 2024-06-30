@@ -11067,55 +11067,6 @@ body.op-modal-open {
 
 /* custom style */
 
-
-#loaderCircular {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  z-index: 9999;
-  width: 120px;
-  height: 120px;
-  margin: -76px 0 0 -76px;
-  border: 16px solid #003640;
-  border-radius: 50%;
-  border-top: 16px solid #2d6a75;
-  border-right: 16px solid #5bb5b5;
-  border-bottom: 16px solid #008691;
-  border-left: 16px solid #7bc6c0;
-  -webkit-animation: spin 2s linear infinite;
-  animation: spin 2s linear infinite;
-  transition: opacity 0.3s ease; 
-  opacity: 0;
-}
-
-@-webkit-keyframes spin {
-  0% {
-    -webkit-transform: rotate(0deg);
-  }
-
-  100% {
-    -webkit-transform: rotate(360deg);
-  }
-}
-
-@keyframes spin {
-  0% {
-    transform: rotate(0deg);
-    opacity: 30%;
-  }
-
-  100% {
-    transform: rotate(360deg);
-    opacity: 40%;
-  }
-}
-
-#myDivCenter {
-  display: none;
-  text-align: center;
-  color: #f5faf7;
-}
-
 .animate-bottom {
   position: relative;
   -webkit-animation-name: animatebottom;

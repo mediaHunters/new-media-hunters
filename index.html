@@ -24,11 +24,66 @@
       content="Agencja interaktywna, projektowanie stron internetowych, rozwój web, seo, marketing w mediach społecznościowych, Wrocław"
     />
 
+<style>
+  #loaderCircular {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 9999;
+  width: 120px;
+  height: 120px;
+  margin: -76px 0 0 -76px;
+  border: 16px solid #003640;
+  border-radius: 50%;
+  border-top: 16px solid #2d6a75;
+  border-right: 16px solid #5bb5b5;
+  border-bottom: 16px solid #008691;
+  border-left: 16px solid #7bc6c0;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+  transition: opacity 0.3s ease; 
+  opacity: 0;
+}
 
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+    opacity: 30%;
+  }
+
+  100% {
+    transform: rotate(360deg);
+    opacity: 40%;
+  }
+}
+
+body.loading {
+            overflow: hidden;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: white; 
+        }
+
+        body.loading *:not(.overlay):not(.loaderCircular) {
+            display: none;
+        }
+</style>
 <!-- critical code  -->
+<script src="assets/js/loader.js" type="module"> </script>
 <script src="https://unpkg.com/i18next@23.4.1/dist/umd/i18next.js" defer></script>
 <script src="assets/js/translation.js" type="module"> </script>
-<script src="assets/js/loader.js" type="module"> </script>
 
     <!-- Favicon -->
     <link rel="preload" href="assets/media/logo.png" as="image">
@@ -90,7 +145,7 @@
 
   </head>
 
-  <body class="sticky-header">
+  <body class="sticky-header loading">
     <!--[if lte IE 9]>
       <p class="browserupgrade">
         You are using an <strong>outdated</strong> browser. Please

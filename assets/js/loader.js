@@ -32,11 +32,12 @@ class OverlayLoader {
     }
 }
 
-document.addEventListener("DOMContentLoaded", function() {
+// Tworzenie i wyświetlanie loadera najszybciej jak to możliwe
+(function() {
     const overlayLoader = new OverlayLoader();
     overlayLoader.start();
 
     window.addEventListener('load', function() {
         overlayLoader.fadeOutElements();
     });
-});
+})();
