@@ -1,0 +1,45 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+    <!-- Strona główna -->
+    <url>
+        <loc>https://www.mediahunters.pl/index.html</loc>
+        <lastmod>2023-08-02T00:00:00+00:00</lastmod>
+        <priority>1.0</priority>
+        <changefreq>monthly</changefreq>
+    </url>
+
+    <!-- O nas -->
+    <url>
+        <loc>https://www.mediahunters.pl/about-us.html</loc>
+        <lastmod>2023-08-02T00:00:00+00:00</lastmod>
+        <priority>0.8</priority>
+        <changefreq>monthly</changefreq>
+    </url>
+
+    <!-- Usługi -->
+    <url>
+        <loc>https://www.mediahunters.pl/service.html</loc>
+        <lastmod>2023-08-02T00:00:00+00:00</lastmod>
+        <priority>0.7</priority>
+        <changefreq>monthly</changefreq>
+    </url>
+
+    <!-- FAQ -->
+    <url>
+        <loc>https://www.mediahunters.pl/faq.html</loc>
+        <lastmod>2023-08-02T00:00:00+00:00</lastmod>
+        <priority>0.8</priority>
+        <changefreq>monthly</changefreq>
+    </url>
+
+    <!-- Kontakt -->
+    <url>
+        <loc>https://www.mediahunters.pl/contact.html</loc>
+        <lastmod>2023-08-02T00:00:00+00:00</lastmod>
+        <priority>0.9</priority>
+        <changefreq>monthly</changefreq>
+    </url>
+
+</urlset>

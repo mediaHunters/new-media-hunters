@@ -1,0 +1,16 @@
+# Blokowanie dostępu do katalogu /templates/ dla wszystkich agentów
+User-agent: *
+Disallow: /templates/
+
+# Zezwalanie na dostęp do pozostałych zasobów
+
+# Specyficzne instrukcje dla Googlebot
+User-agent: Googlebot
+Disallow: /private/
+
+# Specyficzne instrukcje dla Bingbot
+User-agent: Bingbot
+Disallow: /private/
+
+# Lokalizacja mapy witryny
+Sitemap: https://www.mediahunters.pl/sitemap.xml
